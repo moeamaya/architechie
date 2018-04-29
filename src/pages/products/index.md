@@ -98,6 +98,8 @@ pricing:
       plan: Custom
       price: '??'
     - description: Contact us to learn more
+      items:
+        - Test
       plan: Enterprise
       price: '500'
 ---
