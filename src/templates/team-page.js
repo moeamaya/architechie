@@ -1,7 +1,7 @@
 import React from 'react'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const TeamPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -26,7 +26,7 @@ export default ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <AboutPageTemplate
+    <TeamPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
@@ -34,8 +34,8 @@ export default ({ data }) => {
   )
 }
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const pageQuery = graphql`
+  query TeamPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

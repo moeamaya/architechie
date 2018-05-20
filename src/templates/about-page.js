@@ -34,7 +34,7 @@ export default ({ data }) => {
   )
 }
 
-export const aboutPageQuery = graphql`
+export const pageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
