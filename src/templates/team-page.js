@@ -7,7 +7,11 @@ export const TeamPageTemplate = ({
   title,
   heading,
   description,
-  intro
+  intro,
+  main,
+  testimonials,
+  fullImage,
+  pricing,
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -53,20 +57,27 @@ export default ({ data }) => {
 
   return (
     <TeamPageTemplate
-      // contentComponent={HTMLContent}
+      image={frontmatter.image}
       title={frontmatter.title}
+      heading={frontmatter.heading}
+      description={frontmatter.description}
       intro={frontmatter.intro}
-      // content={post.html}
+      main={frontmatter.main}
+      testimonials={frontmatter.testimonials}
+      fullImage={frontmatter.full_image}
+      pricing={frontmatter.pricing}
     />
   )
 }
 
-export const pageQuery = graphql`
+export const teamPageQuery = graphql`
   query TeamPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        image
+        heading
+        description
         intro {
           blurbs {
             image
@@ -74,6 +85,37 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        main {
+          heading
+          description
+          image1 {
+            alt
+            image
+          }
+          image2 {
+            alt
+            image
+          }
+          image3 {
+            alt
+            image
+          }
+        }
+        testimonials {
+          author
+          quote
+        }
+        full_image
+        pricing {
+          heading
+          description
+          plans {
+            description
+            items
+            plan
+            price
+          }
         }
       }
     }
