@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TeamGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="columns is-multiline person-card">
     {gridItems.map(item => (
       <div key={item.image} className="column is-6">
         <section className="section">

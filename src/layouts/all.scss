@@ -11,14 +11,16 @@ $fullhd: 1200px;
 
 @import "~bulma";
 
-h2 {
-
+.content h2 {
+  color: $grey-light;
 }
-
 p {
   font-size: $size-5;
 }
 
+.person-card p {
+  font-size: $size-6;
+}
 
 // // Helper Classes
 // .full-width-image-container
