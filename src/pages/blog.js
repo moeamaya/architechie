@@ -11,6 +11,7 @@ export default class BlogPage extends React.Component {
         <div className="container">
           <div className="content">
             <h1 className="has-text-weight-bold is-size-2">Architechie Blog</h1>
+            <h2 className="subtitle">Wiser words have never been spoken</h2>
           </div>
           {posts
             .filter(post => post.node.frontmatter.templateKey === 'blog-post')

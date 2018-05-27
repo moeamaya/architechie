@@ -1,18 +1,19 @@
 import React from 'react'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, description, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <section className="section section--gradient content">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h1 className="has-text-weight-bold is-size-2">
                 {title}
-              </h2>
+              </h1>
+              <h2 class="subtitle">{description}</h2>
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -29,6 +30,7 @@ export default ({ data }) => {
     <AboutPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
+      description={post.frontmatter.description}
       content={post.html}
     />
   )
@@ -40,6 +42,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        description
       }
     }
   }
