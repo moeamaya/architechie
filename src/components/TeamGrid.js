@@ -1,8 +1,8 @@
 import React from 'react'
 
-const TeamGrid = ({ gridItems }) => (
+const TeamGrid = ({ team }) => (
   <div className="columns is-multiline">
-    {gridItems.map(item => (
+    {team.people.map(item => (
       <div key={item.image} className="column is-6">
         <section className="section">
           <p className="has-text-centered">

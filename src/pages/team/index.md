@@ -18,7 +18,8 @@ team:
     - image: /img/tutorials.png
       name: Gavin Johns
       text: >
-        TODO
+        Gavin is a designer with a passion for crafting products that are easy-to-use and fun. Previously studied and worked as an Architect and Urban Designer before transitioning to Product and User Experience Design.
+        Gavin Johns holds a Master of Architecture, Master of City Planning, and B.Arch from Georgia Tech.
     - image: /img/meeting-space.png
       name: Alex Dixon
       text: >
