@@ -1,19 +1,24 @@
 import React from 'react'
+import Content, { HTMLContent } from '../components/Content'
 
-const TeamGrid = ({ gridItems }) => (
-  <div className="columns is-multiline person-card">
-    {gridItems.map(item => (
-      <div key={item.image} className="column is-6">
-        <section className="section">
-          <p className="has-text-centered">
-            <img alt="" src={item.image} />
-          </p>
-          <h3>{item.name}</h3>
-          <p>{item.text}</p>
-        </section>
-      </div>
-    ))}
-  </div>
-)
+const TeamGrid = ({ gridItems }) => {
+  // const TeamContent = contentComponent || Content
+
+  return (
+    <div className="columns is-multiline person-card">
+      {gridItems.map(item => (
+        <div key={item.image} className="column is-6">
+          <section className="section">
+            <p className="has-text-centered">
+              <img alt="" src={item.image} />
+            </p>
+            <h3>{item.name}</h3>
+            <HTMLContent className="content" content={item.text} />
+          </section>
+        </div>
+      ))}
+    </div>
+  )
+}
 
 export default TeamGrid
