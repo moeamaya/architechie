@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: A Guide to becoming a Product Designer
+title: A Guide to becoming a Product Designer - Part I
 date: 2018-05-29T03:25:22.014Z
-description: 'Part I: Learning efficiently'
+description: Learning efficiently
 ---
 By Gavin Johns
 
