@@ -13,29 +13,29 @@ Panelists:
 
 ![null](/img/1_bhznmiprcc5hehlw7ab-7a.jpg)
 
-Matt Storus holds a Master of Architecture from Harvard GSD and B.Arch from University of Waterloo. Matt previously worked as Interaction Designer at Samsung and is currently the Head of Design at 21.co. 
+**Matt Storus **holds a Master of Architecture from Harvard GSD and B.Arch from University of Waterloo. Matt previously worked as Interaction Designer at Samsung and is currently the Head of Design at 21.co. 
 
 ![null](/img/1_3yp4kxcdtm6oc3vb9it2wa.png)
 
-Gavin Johns holds a Master of Architecture, Master of City Planning, and B.Arch from Georgia Tech. Gavin is a licensed Architect and currently works as a UX designer at Autodesk. 
+**Gavin Johns** holds a Master of Architecture, Master of City Planning, and B.Arch from Georgia Tech. Gavin is a licensed Architect and currently works as a UX designer at Autodesk. 
 
 ![null](/img/1_2jaxxzaqzeynkvo7sntwrw.png)
 
-Leona Hu holds a BFA in Architecture and Interactive Design from California College of the Arts. Leona worked as a UX and Visual Designer at Apple, SAP labs, and Autodesk, and is currently the Founder and Design Director at Airgora.
+**Leona Hu **holds a BFA in Architecture and Interactive Design from California College of the Arts. Leona worked as a UX and Visual Designer at Apple, SAP labs, and Autodesk, and is currently the Founder and Design Director at Airgora.
 
 ![null](/img/1_12d5qjvj4zk3yktyqv3lng.png)
 
-Dan Tsui holds a B.A. in Architecture from UC Berkeley. Dan worked for a number of years as an architect and is a self-taught software engineer currently working at Uber.
+**Dan Tsui** holds a B.A. in Architecture from UC Berkeley. Dan worked for a number of years as an architect and is a self-taught software engineer currently working at Uber.
 
 ![null](/img/1_yvtig0u15qpscxv7vptlsg.png)
 
-Greg Tran holds a Master of Architecture from Harvard GSD and B.Arch from Ohio State. Greg previously worked at Samsung as an Interaction Designer and now works at Magic Leap, leading the design for the future of augmented reality. 
+**Greg Tran** holds a Master of Architecture from Harvard GSD and B.Arch from Ohio State. Greg previously worked at Samsung as an Interaction Designer and now works at Magic Leap, leading the design for the future of augmented reality. 
 
 Moderator:
 
 ![null](/img/1_mg1_sxmkbggskcp_n8pmma.png)
 
-Blake Hudelson holds a Master of Architecture from California College of the Arts and B.S. in City Planning from Cal Poly. He previously worked as an architect at Skidmore Owings & Merrill and as an Interaction Designer at Method.
+**Blake Hudelson** holds a Master of Architecture from California College of the Arts and B.S. in City Planning from Cal Poly. He previously worked as an architect at Skidmore Owings & Merrill and as an Interaction Designer at Method.
 
 \--
 
@@ -83,7 +83,7 @@ Blake Hudelson holds a Master of Architecture from California College of the Art
 
 **Gavin Johns:** Not only is your role and type of company difficult to figure out, but the industry is difficult to choose as well. Technology literally touches everything. You could work with drones, e-commerce, or building architecture software like me. There are so many options out there, you need to spend time studying the intricacies of different industries and have an understanding of how you could contribute.
 
-## What are some exciting fields that you’re not currently working in but would definitely want to be involved in sometime in the future?
+## **What are some exciting fields that you’re not currently working in but would definitely want to be involved in sometime in the future?**
 
 **Matt Storus:** I just want to be Greg. {laughs} Greg is working in something that is related to architecture — using spatial effects to introduce a UI into everyday life — and I think it is one of the most fascinating fields to be working in right now. I think in 10 years we are going to look back and remark on how weird it was to look at these glowing rectangles that you had to take out of your pocket to use, versus having ubiquitous interfaces around us that can be summoned with voice or gesture or even thoughts. I think that layer over reality is something that we’re going to start taking more seriously as it becomes more technologically viable. There is definitely a big anticipation for what Magic Leap will deliver, but also Microsoft, Samsung, Facebook, and other tech giants will have their own platforms. It’s going to upend what we think of in UI/UX design. From a broader point of view, we went from using large screens (computers), to having to learn how to do the same things on very small screens (mobile devices), to very tiny screens (wearables). Now we are moving in the direction where everything will be the screen.
 
