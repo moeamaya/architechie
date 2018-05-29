@@ -6,19 +6,19 @@ description: A conversation with San-Francisco design agency Dixon & Moe
 ---
 By Blake Hudelson
 
-![](/img/0_xr5xt6kccktojfpe.jpeg)
+![null](/img/0_xr5xt6kccktojfpe.jpeg)
 
 I sat down with the three founders of the San Francisco design agency, Dixon & Moe, discussing their trajectory from designing buildings to designing software and what it takes to start a successful design agency today.
 
 \--
 
-## Alex, Robert, and Moe: what is Dixon & Moe?
+## **Alex, Robert, and Moe: what is Dixon & Moe?**
 
 Dixon & Moe is a digital strategy, design, and development consultancy based in San Francisco. It is the only digital agency that we know of whose founding team consists of three trained architects.
 
 We do a lot of work for clients in the architecture, engineering, and real estate industries. We’ve also worked with startups and institutions like MIT.
 
-## What instigated your move from architecture to the technology sector?
+## **What instigated your move from architecture to the technology sector?**
 
 We all met through the graduate architecture programs at MIT and the University of Michigan. Even with our frequent all nighters, we somehow found time to do side projects and hackathons together, which helped drive our growing collaboration over the years. The three of us knew we wanted to start a business, but we knew starting our own architecture practice would probably take an eon. Most architects work at an established firm for 10–15 years, then pilfer a few clients to bootstrap their own firm. We were not about to wait around for that to happen.
 
@@ -30,7 +30,7 @@ To us the speed of the tech sector is really exciting — the rate at which 
 
 ![null](/img/0__jicclnlhnsagtxr.gif)
 
-## What skills from your training in architecture translated well to software design?
+## **What skills from your training in architecture translated well to software design?**
 
 We really like having a background in architecture. It gives us a different perspective from other UX designers and developers in the field because we were trained to think at a 10,000 ft view. You have to learn software tools quickly, solve multifaceted problems, and communicate simple solutions to clients who often don’t understand design.
 
@@ -40,7 +40,7 @@ As architects, we build models to study spaces. A direct analog of this in the t
 
 ![null](/img/0_ngsintm7cx3tnpln.jpeg)
 
-## Architects tend to think they can design anything. What were you not prepared for when transitioning to software design?
+## **Architects tend to think they can design anything. What were you not prepared for when transitioning to software design?**
 
 A huge part of what enabled us to shift from designing buildings to designing software was the accessibility (and sheer scale) of information freely available online today. So we still think we can design anything (laughs).
 
@@ -48,7 +48,7 @@ The hardest part for us has been developing our business chops, like getting new
 
 Something we’ve embraced as part of transitioning to a technology company is testing and feedback. In architecture, you can only ‘ship to production’ once with a building. You don’t iterate once you get feedback from users. This is something we initially had to adjust to, but ultimately we really wish existed in architecture. The three of us were trained to be perfectionists, so we’ve had to learn to be ok with putting our designs out into the world when they’re not perfect.
 
-## What kinds of interesting clients have you worked with since you started?
+## **What kinds of interesting clients have you worked with since you started?**
 
 Our clients tend to fall into two camps: startups and SaaS companies on the one hand, and AEC (architecture, engineering, construction) firms on the other.
 
@@ -58,7 +58,7 @@ We’ve had the opportunity to build powerful tools like ImageWall, a 3D configu
 
 ![null](/img/0_kwhbi9hemboqv0xk.jpeg)
 
-## What else are you working on?
+## **What else are you working on?**
 
 Side projects still run in our blood. Our collaborative efforts were born out of a knack for hacking on nights and weekends, and we keep that mentality to this day. In addition to client work, we’ve got at least 4–5 ongoing internal projects.
 
@@ -72,7 +72,7 @@ Probably our most well-known product we’ve built is Monograph Websites, a nich
 
 ![null](/img/0_ja0sbahuxheng2fr.jpeg)
 
-## Starting a company is no easy feat, what learnings could you share with other designers that are thinking about going out on their own?
+## **Starting a company is no easy feat, what learnings could you share with other designers that are thinking about going out on their own?**
 
 Be prepared to spend 50% of your time looking for new work. This includes marketing, business development, networking, and trolling LinkedIn for old acquaintances.
 
