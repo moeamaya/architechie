@@ -12,7 +12,7 @@ As an architect turned UX designer I have many strong opinions about my former a
 
 Many like-minded architects ask me when and why I decided to transition into software. This puts me in the dubious position of praising the initial skill-set achieved by studying architecture, while promoting departure from it. That said, I have a very abstract definition of architecture, and believe if you have the interest to pursue any other design discipline, you’ll be successful. This guide is intended for those driven and curious architects looking for a change.
 
-## Is this right for you?
+## **Is this right for you?**
 
 Your current work fulfills you creatively, financially, and socially.
 
@@ -30,7 +30,7 @@ If any of that sounds like you, then thanks for reading but you can stop here. I
 
 ![null](/img/1_ub4b9gqnv0cbkwb6gjdirq.png)
 
-## When should you transition?
+## **When should you transition?**
 
 My career as a professional architect was missing three things that I believe are critical to an exceptional creative career. However contentious, when you believe you’re missing the same, you should jump.
 
@@ -54,15 +54,13 @@ Having measurable goals gives you clear success metrics. In architecture, the ma
 
 Aside from these three differences, software is simply a different medium of architecture. A medium that is eating the world. And in turn, shaping the world.
 
-
-
 > “Software is eating the world” — Marc Andreessen
 
 As an architect, you have been trained to shape the world according to millennia of design discourse. Giving form to culture is a skill that calls on all the senses and requires a deep understanding of how people interact with their environment. By questioning the new environments created through software, we have the opportunity to shape our world through a different medium.
 
-![](/img/1_3ujbb2vvqtsttqonvmzrkq.png)
+![null](/img/1_3ujbb2vvqtsttqonvmzrkq.png)
 
-## Why should you transition?
+## **Why should you transition?**
 
 If you’re picking up what I’m putting down, then you can probably see countless reasons to transition. Here are 8 reasons why you as an architect will make a great UX designer:
 
@@ -100,6 +98,6 @@ You have your client’s & occupants best interest at heart. As a UX designer, y
 
 There’s an old stereotype that Architect’s design buildings that can’t stand up (from the Engineer’s perspective), and can’t be constructed (from the Contractor’s perspective). Navigating those relationships to build amazing places requires ingenuity and thick skin. It’s the same in software. You still need to work collaboratively to push innovation, defend design decisions, and try new things even when they’re uncomfortable for most people. It’s exciting!
 
-## How will you transition?
+## **How will you transition?**
 
 Everyone’s path is different, but if you’re curious about mine I’m writing about how I made the transition in a series of following posts.
