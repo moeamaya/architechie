@@ -9,31 +9,16 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          Architechie
+          <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3l12 24H2z" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"/>
+          </svg>
         </Link>
       </div>
-      <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
-        </Link>
-        <Link className="navbar-item" to="/team">
-          Team
-        </Link>
-        <Link className="navbar-item" to="/blog">
-          Blog
-        </Link>
+      <div className="navbar-center">
+        <div class="navbar-date">Est. 2016</div>
       </div>
       <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/moeamaya/architechie"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h22v22H1z" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
       </div>
     </div>
   </nav>
