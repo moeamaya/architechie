@@ -64,11 +64,10 @@ export default class IndexPage extends React.Component {
                 .filter(post => post.node.frontmatter.templateKey === 'blog-post')
                 .map(({ node: post }) => (
                   <article className="index-blog__post" key={post.id}>
-                    <h4>Gavin Johns</h4>
+                    <h4>{post.frontmatter.author}</h4>
                     <Link to={post.fields.slug} className="index-blog__link columns">
                       <div className="column is-four-fifths">
                         <h2>{post.frontmatter.title}</h2>
-                        <small>{post.frontmatter.date}</small>
                       </div>
                       <div className="column index-blog__arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="14" viewBox="0 0 42 14">
@@ -79,7 +78,7 @@ export default class IndexPage extends React.Component {
                         </svg>
                       </div>
                     </Link>
-                    <p>{post.excerpt}</p>
+                    <p>{post.frontmatter.description}</p>
                   </article>
                 ))
               }
@@ -105,7 +104,8 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
-            date(formatString: "MMMM DD, YYYY")
+            author
+            description
           }
         }
       }

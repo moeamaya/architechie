@@ -3,8 +3,8 @@ templateKey: blog-post
 title: A Guide to becoming a Product Designer - Part II
 date: 2018-05-29T03:39:34.901Z
 description: Designing a product
+author: Gavin Johns
 ---
-By Gavin Johns
 
 This post will give you a foundational process to begin understanding product design while building a body of work to reference in a portfolio. You’ll want to go through this process many times to practice and learn as much as possible. Use it like a checklist. We’ll be covering:
 

@@ -3,8 +3,8 @@ templateKey: blog-post
 title: A Guide to becoming a Product Designer - Part I
 date: 2018-05-29T03:25:22.014Z
 description: Learning efficiently
+author: Gavin Johns
 ---
-By Gavin Johns
 
 _In the following series of posts, I will lay out my personal experience and suggestions for transitioning careers into digital Product Design. The intended audience are designers in any other discipline._
 

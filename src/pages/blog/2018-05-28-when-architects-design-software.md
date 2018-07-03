@@ -3,8 +3,8 @@ templateKey: blog-post
 title: When Architects Design Software
 date: 2018-05-29T02:55:33.328Z
 description: A conversation with San-Francisco design agency Dixon & Moe
+author: Blake Hudelson
 ---
-By Blake Hudelson
 
 ![null](/img/0_xr5xt6kccktojfpe.jpeg)
 

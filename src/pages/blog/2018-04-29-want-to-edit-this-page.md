@@ -3,8 +3,8 @@ templateKey: blog-post
 title: 'Architects, stop everything and pursue a career in UX'
 date: 2018-04-28T15:33:58.000Z
 description: 8 reasons why you’ll be great at it
+author: Gavin Johns
 ---
-By Gavin Johns
 
 As an architect turned UX designer I have many strong opinions about my former and current profession. But in short, I am now enjoying the greener pastures I expected while studying architecture that the profession didn’t provide.
 
