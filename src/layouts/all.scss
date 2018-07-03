@@ -11,6 +11,13 @@ $fullhd: 1320px;
   color: #000;
   text-transform: uppercase;
 }
+@mixin sectra {
+  font-family: 'GT Sectra Trial';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.15;
+}
 
 
 body {
@@ -101,8 +108,8 @@ p {
   text-align: center;
 }
 .index-manifesto__title {
+  @include sectra;
   font-size: 4rem;
-  font-style: italic;
 }
 .index-manifesto__subtitle {
   @include mono;
@@ -112,13 +119,58 @@ p {
   font-size: $size-4;
   margin-top: 3rem;
 }
+.index-blog__arrow {
+  text-align: right;
+  svg {
+    margin-top: 1rem;
+  }
+}
 
-
+.index-manifesto__graphic {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .index-manifesto__graphic-triangle {
   position: absolute;
   bottom: 0;
   right: -10rem;
 }
+.index-manifesto__graphic-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #000;
+  width: 40%;
+}
 
 
-
+.index-blog {
+  margin-top: 8rem;
+  padding: 8rem 0;
+  background-image: linear-gradient(1355deg, #D4F8FD 0%, #FED7DE 100%);
+}
+.index-blog__heading {
+  @include mono;
+  margin: 0rem 0 2rem;
+  text-align: center;
+}
+.index-blog__post {
+  margin-top: 6rem;
+  padding-bottom: 4rem;
+  h4 {
+    @include mono;
+  }
+  h2 {
+    @include sectra;
+    margin-top: 0.2rem;
+  }
+  p {
+    font-size: $size-4;
+    margin-top: 1rem;
+  }
+}
+.index-blog__link {
+  color: #000;
+}

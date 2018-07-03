@@ -19,7 +19,7 @@ export default class IndexPage extends React.Component {
         </section>
         <section className="index-intro">
           <div className="container">
-            <div class="index-intro__content">
+            <div className="index-intro__content">
               <div className="index-intro__box">
                 <div className="index-intro__box-top"></div>
                 <div className="index-intro__box-bottom"></div>
@@ -36,21 +36,56 @@ export default class IndexPage extends React.Component {
             <div className="index-manifesto__heading">
               <h3>Principles</h3>
             </div>
-            <div class="index-manifesto__content columns">
-                <div class="column is-two-thirds">
-                  <h2 class="index-manifesto__title">Manifesto</h2>
-                  <h4 class="index-manifesto__subtitle">Design All the Things</h4>
-                  <p class="index-manifesto__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+            <div className="index-manifesto__content columns">
+                <div className="column is-two-thirds">
+                  <h2 className="index-manifesto__title">Manifesto</h2>
+                  <h4 className="index-manifesto__subtitle">Design All the Things</h4>
+                  <p className="index-manifesto__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
                 </div>
             </div>
           </div>
-          <div class="index-manifesto__graphic">
-            <div class="index-manifesto__graphic-triangle">
+          <div className="index-manifesto__graphic">
+            <div className="index-manifesto__graphic-triangle">
               <svg width="604" height="581" viewBox="0 0 604 581" xmlns="http://www.w3.org/2000/svg"><path stroke="#000" stroke-width="2" d="M302 3l300 577H2z" fill="none" fill-rule="evenodd"/></svg>
+            </div>
+            <div className="container">
+              <div className="index-manifesto__graphic-line"></div>
             </div>
           </div>
         </section>
 
+        <section className="index-blog">
+          <div className="index-blog__heading">
+            <h3>Writing</h3>
+          </div>
+          <div className="index-blog__posts">
+            <div className="container">
+              {posts
+                .filter(post => post.node.frontmatter.templateKey === 'blog-post')
+                .map(({ node: post }) => (
+                  <article className="index-blog__post" key={post.id}>
+                    <h4>Gavin Johns</h4>
+                    <Link to={post.fields.slug} className="index-blog__link columns">
+                      <div className="column is-four-fifths">
+                        <h2>{post.frontmatter.title}</h2>
+                        <small>{post.frontmatter.date}</small>
+                      </div>
+                      <div className="column index-blog__arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="14" viewBox="0 0 42 14">
+                          <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+                            <polyline stroke="#000" stroke-width="2" points="34 0 40 6 34 12"/>
+                            <rect width="40" height="2" y="5" fill="#000"/>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                    <p>{post.excerpt}</p>
+                  </article>
+                ))
+              }
+            </div>
+          </div>
+        </section>
 
       </section>
     )
@@ -62,7 +97,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 100)
           id
           fields {
             slug
