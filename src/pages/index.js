@@ -86,6 +86,39 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
+        <section className="index-people">
+          <div className="container">
+            <div className="index-people__title">
+              <h2>People</h2>
+            </div>
+
+            <div className="columns">
+              <div className="column is-one-third index-person">
+                <h4>Architechie</h4>
+                <h2>Leona<br/>Hudelson</h2>
+                <div className="index-person__image"></div>
+                <p>Leona comes from a multidisciplinary backgrounds varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding her own startup, Airgora.<br/><br/>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
+                </p>
+              </div>
+              <div className="column is-one-third index-person">
+                <h4>Architechie</h4>
+                <h2>Gavin<br/>Johns</h2>
+                <div className="index-person__image"></div>
+                <p>Leona comes from a multidisciplinary backgrounds varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding her own startup, Airgora.<br/><br/>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
+                </p>
+              </div>
+              <div className="column is-one-third index-person">
+                <h4>Architechie</h4>
+                <h2>Blake<br/>Hudelson</h2>
+                <div className="index-person__image"></div>
+                <p>Leona comes from a multidisciplinary backgrounds varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding her own startup, Airgora.<br/><br/>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
       </section>
     )
   }

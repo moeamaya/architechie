@@ -174,3 +174,60 @@ p {
 .index-blog__link {
   color: #000;
 }
+
+
+.index-people {
+  margin-bottom: 8rem;
+}
+.index-people__title {
+  @include mono;
+  position: relative;
+  margin-top: 10rem;
+  text-align: center;
+  line-height: 150px;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    transform: rotate(45deg) translate(-80px, 80px);
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    transform: rotate(45deg) translate(-20px, 20px);
+  }
+}
+.index-person {
+  margin-top: 6rem;
+  h4 {
+    @include mono;
+    margin-left: 4rem;
+  }
+  h2 {
+    @include sectra;
+    font-size: 4rem;
+    margin-left: 4rem;
+  }
+  p {
+    margin-left: 4rem;
+    font-size: 1em;
+  }
+}
+.index-person__image {
+  margin-top: -4rem;
+  margin-bottom: -4rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background: linear-gradient(235deg, #D4F8FD 0%, #FED7DE 100%);
+}
+
+
