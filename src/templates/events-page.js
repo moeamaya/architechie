@@ -19,8 +19,6 @@ export const EventsPageTemplate = ({
               <h1 className="has-text-weight-bold is-size-2">
                 {title}
               </h1>
-              <h2 class="subtitle">{heading}</h2>
-              <TeamGrid gridItems={team.people} />
             </div>
           </div>
         </div>
