@@ -8,7 +8,7 @@ team:
     - image: /img/screen shot 2018-05-28 at 8.57.18 pm.png
       name: Leona Hu
       text: |
-        TODO
+        Leona comes from a multidisciplinary background varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding a  startup, Airgora.<br><br>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
     - image: /img/1_mg1_sxmkbggskcp_n8pmma.png
       name: Blake Hudelson
       text: >

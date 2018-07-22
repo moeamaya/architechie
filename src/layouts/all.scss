@@ -205,6 +205,9 @@ p {
     transform: rotate(45deg) translate(-20px, 20px);
   }
 }
+.index-people-list {
+  flex-wrap: wrap;
+}
 .index-person {
   margin-top: 6rem;
   h4 {
@@ -215,6 +218,7 @@ p {
     @include sectra;
     font-size: 4rem;
     margin-left: 4rem;
+    word-spacing: 100rem;
   }
   p {
     margin-left: 4rem;

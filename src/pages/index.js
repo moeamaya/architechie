@@ -11,21 +11,6 @@ export default class IndexPage extends React.Component {
 
     return (
       <section>
-          {posts
-            .filter(post => post.node.frontmatter.templateKey === 'team-page')
-            .map(({ node: post }) => (
-              <div className="column is-four-fifths">
-                {post.frontmatter.team.people
-                  .map((person) => (
-                    <div className="dope">
-                      {person.name}
-                    </div>
-                  ))
-                }
-
-              </div>
-            ))
-          }
         <section className="">
           <div className="container">
             <div className="index-heading">
@@ -56,7 +41,7 @@ export default class IndexPage extends React.Component {
                 <div className="column is-two-thirds">
                   <h2 className="index-manifesto__title">Manifesto</h2>
                   <h4 className="index-manifesto__subtitle">Design All the Things</h4>
-                  <p className="index-manifesto__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                  <p className="index-manifesto__description">Architechie is an organization founded by a group of former architects that bridges the gap between architecture and technology. The core group of founders is now working in fields including experience design, augmented reality, software development and connected environments/internet of things. </p>
                 </div>
             </div>
           </div>
@@ -108,33 +93,94 @@ export default class IndexPage extends React.Component {
               <h2>People</h2>
             </div>
 
-            <div className="columns">
-              <div className="column is-one-third index-person">
-                <h4>Architechie</h4>
-                <h2>Leona<br/>Hudelson</h2>
-                <div className="index-person__image"></div>
-                <p>Leona comes from a multidisciplinary backgrounds varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding her own startup, Airgora.<br/><br/>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
-                </p>
-              </div>
-              <div className="column is-one-third index-person">
-                <h4>Architechie</h4>
-                <h2>Gavin<br/>Johns</h2>
-                <div className="index-person__image"></div>
-                <p>Leona comes from a multidisciplinary backgrounds varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding her own startup, Airgora.<br/><br/>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
-                </p>
-              </div>
-              <div className="column is-one-third index-person">
-                <h4>Architechie</h4>
-                <h2>Blake<br/>Hudelson</h2>
-                <div className="index-person__image"></div>
-                <p>Leona comes from a multidisciplinary backgrounds varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding her own startup, Airgora.<br/><br/>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
-                </p>
-              </div>
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'team-page')
+              .map(({ node: post }) => (
+                <div className="columns index-people-list">
+                  {post.frontmatter.team.people
+                    .map((person) => (
+                      <div className="column is-one-third index-person">
+                        <h4>Architechie</h4>
+                        <h2>{person.name}</h2>
+                        <div className="index-person__image"></div>
+                        <p dangerouslySetInnerHTML={{ __html: person.text }} />
+                      </div>
+                    ))
+                  }
+                </div>
+              ))
+            }
 
+          </div>
+        </section>
+
+        <section className="index-events">
+          <div className="container">
+            <div className="index-people__title">
+              <h2>Events</h2>
+            </div>
+
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'events-page')
+              .map(({ node: post }) => (
+                <div className="columns index-people-list">
+                  {post.frontmatter.events
+                    .map((event) => (
+                      <div className="column is-one-third index-person">
+                        <h4>Architechie</h4>
+                        <h2>{event.name}</h2>
+                      </div>
+                    ))
+                  }
+                </div>
+              ))
+            }
+
+          </div>
+        </section>
+
+        <section className="index-faqs">
+          <div className="index-blog__heading">
+            <h3>Frequently Asked Questions</h3>
+          </div>
+          <div className="index-blog__posts">
+            <div className="container">
+              {posts
+                .filter(post => post.node.frontmatter.templateKey === 'blog-post')
+                .map(({ node: post }) => (
+                  <article className="index-blog__post" key={post.id}>
+                    <h4>{post.frontmatter.author}</h4>
+                    <Link to={post.fields.slug} className="index-blog__link columns">
+                      <div className="column is-four-fifths">
+                        <h2>{post.frontmatter.title}</h2>
+                      </div>
+                      <div className="column index-blog__arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="14" viewBox="0 0 42 14">
+                          <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+                            <polyline stroke="#000" stroke-width="2" points="34 0 40 6 34 12"/>
+                            <rect width="40" height="2" y="5" fill="#000"/>
+                          </g>
+                        </svg>
+                      </div>
+                    </Link>
+                    <p>{post.frontmatter.description}</p>
+                  </article>
+                ))
+              }
             </div>
           </div>
         </section>
 
+        <section className="index-cta">
+          <div className="index-blog__heading">
+            <h3>Ready to Learn More?</h3>
+          </div>
+          <div className="index-blog__posts">
+            <div className="container">
+              <h2>Sign Up</h2>
+            </div>
+          </div>
+        </section>
       </section>
     )
   }
@@ -158,7 +204,12 @@ export const pageQuery = graphql`
             team {
               people {
                 name
+                text
+                image
               }
+            }
+            events {
+              name
             }
           }
         }
