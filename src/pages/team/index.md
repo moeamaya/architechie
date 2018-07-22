@@ -17,7 +17,6 @@ team:
         connected products, mobile and web interfaces, and environments for a
         range of clients including Google, CBS, the Exploratorium Science
         Museum, and the United States Department of Defense.<br><br>
-
         Currently, he works as a lead designer at Google ATAP and teaches at
         California College of the Arts. Blake holds an Master of Architecture
         from California College of the Arts and B.S. from Cal Poly, SLO.

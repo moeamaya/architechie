@@ -7,9 +7,25 @@ export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    // const { edges: pages } = data.allMarkdownRemark
 
     return (
       <section>
+          {posts
+            .filter(post => post.node.frontmatter.templateKey === 'team-page')
+            .map(({ node: post }) => (
+              <div className="column is-four-fifths">
+                {post.frontmatter.team.people
+                  .map((person) => (
+                    <div className="dope">
+                      {person.name}
+                    </div>
+                  ))
+                }
+
+              </div>
+            ))
+          }
         <section className="">
           <div className="container">
             <div className="index-heading">
@@ -139,6 +155,11 @@ export const pageQuery = graphql`
             templateKey
             author
             description
+            team {
+              people {
+                name
+              }
+            }
           }
         }
       }
