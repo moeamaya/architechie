@@ -158,28 +158,27 @@ export default class IndexPage extends React.Component {
           </div>
           <div className="index-blog__posts">
             <div className="container">
+              <div className="columns">
+
               {posts
-                .filter(post => post.node.frontmatter.templateKey === 'blog-post')
+                .filter(post => post.node.frontmatter.templateKey === 'faq-page')
                 .map(({ node: post }) => (
-                  <article className="index-blog__post" key={post.id}>
-                    <h4>{post.frontmatter.author}</h4>
-                    <Link to={post.fields.slug} className="index-blog__link columns">
-                      <div className="column is-four-fifths">
-                        <h2>{post.frontmatter.title}</h2>
-                      </div>
-                      <div className="column index-blog__arrow">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="14" viewBox="0 0 42 14">
-                          <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
-                            <polyline stroke="#000" stroke-width="2" points="34 0 40 6 34 12"/>
-                            <rect width="40" height="2" y="5" fill="#000"/>
-                          </g>
-                        </svg>
-                      </div>
-                    </Link>
-                    <p>{post.frontmatter.description}</p>
-                  </article>
+                  <div className="columns index-people-list">
+                    {post.frontmatter.faqs
+                      .map((faq) => (
+                        <article className="index-blog__post column is-half">
+                          <h4>Question</h4>
+                          <h2>{faq.name}</h2>
+                          <br />
+                          <h4>{faq.author}</h4>
+                          <p>{faq.description}</p>
+                        </article>
+                      ))
+                    }
+                  </div>
                 ))
               }
+              </div>
             </div>
           </div>
         </section>
@@ -225,6 +224,11 @@ export const pageQuery = graphql`
             }
             events {
               name
+            }
+            faqs {
+              name
+              author
+              description
             }
           }
         }

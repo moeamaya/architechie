@@ -35,6 +35,13 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
           - {label: Title, name: title, widget: string}
           - {label: Events, name: events, widget: list, fields:[{label: Name, name: name, widget: text}, {label: Date, name: date, widget: text}]}
+      - file: "src/pages/faq/index.md"
+        label: "FAQ"
+        name: "faq"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: FAQs, name: faqs, widget: list, fields:[{label: Name, name: name, widget: text}, {label: Author, name: author, widget: text}, {label: Description, name: description, widget: text}]}
       - file: "src/pages/team/index.md"
         label: "Team"
         name: "team"
@@ -44,3 +51,4 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Team, name: team, widget: list, fields: [ {label: Name, name: name, widget: text}, {label: Image, name: image, widget: image}, {label: Text, name: text, widget: markdown}]}
+
