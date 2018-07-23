@@ -97,7 +97,7 @@ export default class IndexPage extends React.Component {
               .filter(post => post.node.frontmatter.templateKey === 'team-page')
               .map(({ node: post }) => (
                 <div className="columns index-people-list">
-                  {post.frontmatter.team.people
+                  {post.frontmatter.team
                     .map((person) => (
                       <div className="column is-one-third index-person">
                         <h4>Architechie</h4>
@@ -202,11 +202,9 @@ export const pageQuery = graphql`
             author
             description
             team {
-              people {
-                name
-                text
-                image
-              }
+              name
+              text
+              image
             }
             events {
               name

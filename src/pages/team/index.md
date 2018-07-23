@@ -4,36 +4,35 @@ title: Our team
 image: /img/chemex.jpg
 heading: Holler at your crew tho
 team:
-  people:
-    - image: /img/screen shot 2018-05-28 at 8.57.18 pm.png
-      name: Leona Hu
-      text: |
-        Leona comes from a multidisciplinary background varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding a  startup, Airgora.<br><br>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
-    - image: /img/1_mg1_sxmkbggskcp_n8pmma.png
-      name: Blake Hudelson
-      text: >
-        Blake is a design leader and educator working at the intersection of
-        technology and design. Blake has designed interactive experiences,
-        connected products, mobile and web interfaces, and environments for a
-        range of clients including Google, CBS, the Exploratorium Science
-        Museum, and the United States Department of Defense.<br><br>
-        Currently, he works as a lead designer at Google ATAP and teaches at
-        California College of the Arts. Blake holds an Master of Architecture
-        from California College of the Arts and B.S. from Cal Poly, SLO.
-    - image: /img/1_3yp4kxcdtm6oc3vb9it2wa.png
-      name: Gavin Johns
-      text: |
-        Gavin is a designer with a passion for crafting products that are
-        easy-to-use and fun. Previously studied and worked as an Architect and
-        Urban Designer before transitioning to Product and User Experience
-        Design. Gavin Johns holds a Master of Architecture, Master of City
-        Planning, and B.Arch from Georgia Tech.
-    - image: /img/screen shot 2018-05-28 at 8.57.33 pm.png
-      name: Alex Dixon
-      text: |
-        TODO
-    - image: /img/screen shot 2018-05-28 at 8.57.44 pm.png
-      name: Moe Amaya
-      text: "\U0001F1F2\U0001F1FD Designer trained at MIT. Building <a href=\"http://monograph.io\">Monograph</a> a project management software for architects. Previously worked with IDEO, Spoke, and Teespring."
+  - image: /img/screen shot 2018-05-28 at 8.57.18 pm.png
+    name: Leona Hu
+    text: |
+      Leona comes from a multidisciplinary background varying in architecture, digital product development and design. After working at tech giants like SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the past two years founding a  startup, Airgora.<br><br>Leona currently leads the product design for Netflix’s Studio Finance Engineering team to help Netflix scale as the largest studio in history with $8+ billion annual investment in creative content.
+  - image: /img/1_mg1_sxmkbggskcp_n8pmma.png
+    name: Blake Hudelson
+    text: >
+      Blake is a design leader and educator working at the intersection of
+      technology and design. Blake has designed interactive experiences,
+      connected products, mobile and web interfaces, and environments for a
+      range of clients including Google, CBS, the Exploratorium Science
+      Museum, and the United States Department of Defense.<br><br>
+      Currently, he works as a lead designer at Google ATAP and teaches at
+      California College of the Arts. Blake holds an Master of Architecture
+      from California College of the Arts and B.S. from Cal Poly, SLO.
+  - image: /img/1_3yp4kxcdtm6oc3vb9it2wa.png
+    name: Gavin Johns
+    text: |
+      Gavin is a designer with a passion for crafting products that are
+      easy-to-use and fun. Previously studied and worked as an Architect and
+      Urban Designer before transitioning to Product and User Experience
+      Design. Gavin Johns holds a Master of Architecture, Master of City
+      Planning, and B.Arch from Georgia Tech.
+  - image: /img/screen shot 2018-05-28 at 8.57.33 pm.png
+    name: Alex Dixon
+    text: |
+      TODO
+  - image: /img/screen shot 2018-05-28 at 8.57.44 pm.png
+    name: Moe Amaya
+    text: "\U0001F1F2\U0001F1FD Designer trained at MIT. Building <a href=\"http://monograph.io\">Monograph</a> a project management software for architects. Previously worked with IDEO, Spoke, and Teespring."
 ---
 

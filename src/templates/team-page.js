@@ -51,11 +51,9 @@ export const pageQuery = graphql`
         title
         heading
         team {
-          people {
-            image
-            name
-            text
-          }
+          image
+          name
+          text
         }
       }
     }
