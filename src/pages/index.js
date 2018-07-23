@@ -133,7 +133,7 @@ export default class IndexPage extends React.Component {
 
         <section className="index-events">
           <div className="container">
-            <div className="index-people__title">
+            <div className="index-events__title">
               <h2>Events</h2>
             </div>
 
@@ -144,8 +144,9 @@ export default class IndexPage extends React.Component {
                   {post.frontmatter.events
                     .map((event) => (
                       <div className="column is-one-third index-person">
-                        <h4>Architechie</h4>
                         <h2>{event.name}</h2>
+                        <br />
+                        <h4>{event.date}</h4>
                       </div>
                     ))
                   }
@@ -228,6 +229,7 @@ export const pageQuery = graphql`
             }
             events {
               name
+              date
             }
             faqs {
               name

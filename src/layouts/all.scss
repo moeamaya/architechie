@@ -298,6 +298,23 @@ p {
   background: linear-gradient(235deg, #D4F8FD 0%, #FED7DE 100%);
 }
 
+.index-events__title {
+  @include mono;
+  position: relative;
+  margin-top: 10rem;
+  text-align: center;
+  line-height: 150px;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    transform: rotate(45deg) translate(-54px, 54px);
+  }
+}
+
 .index-faqs {
   margin-top: 12rem;
 }

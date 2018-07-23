@@ -31,6 +31,6 @@ team:
       TODO
   - image: /img/screen shot 2018-05-28 at 8.57.44 pm.png
     name: Moe Amaya
-    text: "\U0001F1F2\U0001F1FD Designer trained at MIT. Building <a href=\"http://monograph.io\">Monograph</a> a project management software for architects. Previously worked with IDEO, Spoke, and Teespring."
+    text: Moe is a fickle wildcard and works at Monograph, a small software company building tools for architects. Previously he worked with IDEO, Spoke, and Teespring while also earning a degree in design computation at MIT.<br><br>Lately, he's been seen spending way too much time on Twitter and making lots of colorful side projects.
 ---
 
