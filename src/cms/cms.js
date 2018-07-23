@@ -6,7 +6,4 @@ import EventPagePreview from './preview-templates/EventPagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 
 CMS.registerPreviewStyle('/styles.css')
-CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('team', TeamPagePreview)
-CMS.registerPreviewTemplate('team', EventPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
