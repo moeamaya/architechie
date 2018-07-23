@@ -185,12 +185,16 @@ export default class IndexPage extends React.Component {
         </section>
 
         <section className="index-cta">
-          <div className="index-blog__heading">
-            <h3>Ready to Learn More?</h3>
+          <div className="index-cta__heading">
+            <h3>Join Us</h3>
           </div>
-          <div className="index-blog__posts">
+          <div className="index-cta__content">
             <div className="container">
-              <h2>Sign Up</h2>
+              <h2>Hop on our mailing list to stay informed.</h2>
+              <div className="index-cta__box">
+                <input type="email" placeholder="you@domain.com" />
+                <button>Sign Up</button>
+              </div>
             </div>
           </div>
         </section>
