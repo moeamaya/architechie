@@ -8,6 +8,15 @@
        url('../fonts/SimplonMono-Regular-WebS.woff') format('woff');
   font-style: normal;
 }
+@font-face {
+  font-family: 'GT Sectra';
+  src: url('../fonts/GT-Sectra-Black-Italic.eot');
+  src: url('../fonts/GT-Sectra-Black-Italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GT-Sectra-Black-Italic.woff2') format('woff2'),
+       url('../fonts/GT-Sectra-Black-Italic.woff') format('woff');
+  font-style: normal;
+}
+
 
 // Config vars
 $fullhd: 1320px;
@@ -21,7 +30,7 @@ $fullhd: 1320px;
   text-transform: uppercase;
 }
 @mixin sectra {
-  font-family: 'GT Sectra Trial';
+  font-family: 'GT Sectra';
   font-style: italic;
   font-weight: 900;
   font-size: 3rem;
