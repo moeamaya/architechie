@@ -28,6 +28,12 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/event/index.md"
+        label: "Event"
+        name: "event"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
+          - {label: Title, name: title, widget: string}
       - file: "src/pages/team/index.md"
         label: "Team"
         name: "team"

@@ -121,7 +121,7 @@ export default class IndexPage extends React.Component {
             </div>
 
             {posts
-              .filter(post => post.node.frontmatter.templateKey === 'events-page')
+              .filter(post => post.node.frontmatter.templateKey === 'event-page')
               .map(({ node: post }) => (
                 <div className="columns index-people-list">
                   {post.frontmatter.events

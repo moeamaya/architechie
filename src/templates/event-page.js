@@ -2,7 +2,7 @@ import React from 'react'
 import Content, { HTMLContent } from '../components/Content'
 import TeamGrid from '../components/TeamGrid'
 
-export const EventsPageTemplate = ({
+export const EventPageTemplate = ({
   title,
   heading,
   team,
@@ -31,7 +31,7 @@ export default ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <EventsPageTemplate
+    <EventPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       heading={post.frontmatter.heading}
@@ -42,7 +42,7 @@ export default ({ data }) => {
 }
 
 export const pageQuery = graphql`
-  query EventsPage($id: String!) {
+  query EventPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

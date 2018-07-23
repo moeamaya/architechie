@@ -1,5 +1,5 @@
 ---
-templateKey: events-page
+templateKey: event-page
 title: Events
 image: /img/chemex.jpg
 heading: Holler at your crew tho
