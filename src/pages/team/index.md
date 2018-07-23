@@ -1,8 +1,6 @@
 ---
 templateKey: team-page
 title: Our team
-image: /img/chemex.jpg
-heading: Holler at your crew tho
 team:
   - image: /img/screen shot 2018-05-28 at 8.57.18 pm.png
     name: Leona Hu

@@ -10,15 +10,15 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14 3l12 24H2z" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"/>
+            <path d="M14 3l12 24H2z" stroke="#000" strokeWidth="2" fill="none" fillRule="evenodd"/>
           </svg>
         </Link>
       </div>
       <div className="navbar-center">
-        <div class="navbar-date">Est. 2016</div>
+        <div className="navbar-date">Est. 2016</div>
       </div>
       <div className="navbar-end">
-        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h22v22H1z" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h22v22H1z" stroke="#000" strokeWidth="2" fill="none" fillRule="evenodd"/></svg>
       </div>
     </div>
   </nav>

@@ -16,7 +16,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "text"}
 
   - name: "pages"
     label: "Pages"
@@ -27,28 +27,26 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "text"}
       - file: "src/pages/event/index.md"
         label: "Event"
         name: "event"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Events, name: events, widget: list, fields:[{label: Name, name: name, widget: text}, {label: Date, name: date, widget: text}]}
+          - {label: Events, name: events, widget: list, fields:[{label: Name, name: name, widget: string}, {label: Date, name: date, widget: string}]}
       - file: "src/pages/faq/index.md"
         label: "FAQ"
         name: "faq"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
           - {label: Title, name: title, widget: string}
-          - {label: FAQs, name: faqs, widget: list, fields:[{label: Name, name: name, widget: text}, {label: Author, name: author, widget: text}, {label: Description, name: description, widget: text}]}
+          - {label: FAQs, name: faqs, widget: list, fields:[{label: Name, name: name, widget: string}, {label: Author, name: author, widget: string}, {label: Description, name: description, widget: text}]}
       - file: "src/pages/team/index.md"
         label: "Team"
         name: "team"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Team, name: team, widget: list, fields: [ {label: Name, name: name, widget: text}, {label: Image, name: image, widget: image}, {label: Text, name: text, widget: markdown}]}
+          - {label: Team, name: team, widget: list, fields: [ {label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}
 
