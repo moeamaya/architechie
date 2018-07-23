@@ -20,7 +20,7 @@ export const TeamPageTemplate = ({
                 {title}
               </h1>
               <h2 class="subtitle">{heading}</h2>
-              <TeamGrid gridItems={team.people} />
+              <TeamGrid gridItems={team} />
             </div>
           </div>
         </div>
