@@ -34,6 +34,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
           - {label: Title, name: title, widget: string}
+          - {label: Events, name: events, widget: list, fields:[{label: Name, name: name, widget: text}, {label: Date, name: date, widget: text}]}
       - file: "src/pages/team/index.md"
         label: "Team"
         name: "team"
