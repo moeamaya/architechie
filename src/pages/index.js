@@ -29,6 +29,14 @@ export default class IndexPage extends React.Component {
                 <img src={header} alt="Github" />
               </div>
             </div>
+            <div className="index-intro__description">
+              {posts
+                .filter(post => post.node.frontmatter.templateKey === 'about-page')
+                .map(({ node: post }) => (
+                  <p className="index-intro__description-text" dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
+                ))
+              }
+            </div>
           </div>
         </section>
 
@@ -41,7 +49,12 @@ export default class IndexPage extends React.Component {
                 <div className="column is-two-thirds">
                   <h2 className="index-manifesto__title">Manifesto</h2>
                   <h4 className="index-manifesto__subtitle">Design All the Things</h4>
-                  <p className="index-manifesto__description">Architechie is an organization founded by a group of former architects that bridges the gap between architecture and technology. The core group of founders is now working in fields including experience design, augmented reality, software development and connected environments/internet of things. </p>
+                  {posts
+                    .filter(post => post.node.frontmatter.templateKey === 'about-page')
+                    .map(({ node: post }) => (
+                      <p className="index-manifesto__description" dangerouslySetInnerHTML={{ __html: post.frontmatter.description }} />
+                    ))
+                  }
                 </div>
             </div>
           </div>

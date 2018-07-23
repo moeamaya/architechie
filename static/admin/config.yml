@@ -27,7 +27,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "markdown"}
       - file: "src/pages/event/index.md"
         label: "Event"
         name: "event"
