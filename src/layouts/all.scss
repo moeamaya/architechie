@@ -1,12 +1,21 @@
 @import "~bulma/sass/utilities/initial-variables";
 
+@font-face {
+  font-family: 'Simplon Mono';
+  src: url('../fonts/SimplonMono-Regular-WebS.eot');
+  src: url('../fonts/SimplonMono-Regular-WebS.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/SimplonMono-Regular-WebS.woff2') format('woff2'),
+       url('../fonts/SimplonMono-Regular-WebS.woff') format('woff');
+  font-style: normal;
+}
+
 // Config vars
 $fullhd: 1320px;
 @import "~bulma";
 
 
 @mixin mono {
-  font-family: 'Simplon Mono Trial', monospace;
+  font-family: 'Simplon Mono', monospace;
   font-size: $size-6;
   color: #000;
   text-transform: uppercase;
