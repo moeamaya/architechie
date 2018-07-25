@@ -3,7 +3,7 @@ templateKey: event-page
 title: Events
 events:
   - date: 09 August 2018
-    name: Launch Party @ WeWork
+    name: Social Hour @ WeWork
   - date: 14 May 2018
     name: Happy Hour @ Monograph
   - date: 25 Feb 2017
