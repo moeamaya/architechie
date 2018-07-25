@@ -49,5 +49,8 @@ team:
       Teespring while also earning a degree in design computation at
       MIT.<br><br>Lately, he's been seen spending way too much time on Twitter
       and making lots of colorful side projects.
+  - image: /img/0.jpg
+    name: George Valdes
+    text: Text forthcoming
 ---
 
