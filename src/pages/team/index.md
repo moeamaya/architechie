@@ -15,14 +15,14 @@ team:
   - image: /img/1_mg1_sxmkbggskcp_n8pmma.png
     name: Blake Hudelson
     text: >
-      Blake is a design leader and educator working at the intersection of
-      technology and design. Blake has designed interactive experiences,
-      connected products, mobile and web interfaces, and environments for a
-      range of clients including Google, CBS, the Exploratorium Science Museum,
-      and the United States Department of Defense.<br><br> Currently, he works
-      as a lead designer at Google ATAP and teaches at California College of the
-      Arts. Blake holds an Master of Architecture from California College of the
-      Arts and B.S. from Cal Poly, SLO.
+      Blake is a designer and educator working at the intersection of technology
+      and design. Blake has designed interactive experiences, connected
+      products, mobile and web interfaces, and environments for a range of
+      clients including Google, CBS, the Exploratorium Science Museum, and the
+      United States Department of Defense.<br><br> Currently, he works as a
+      designer at Google ATAP and teaches at California College of the Arts.
+      Blake holds an Master of Architecture from California College of the Arts
+      and B.S. from Cal Poly, SLO.
   - image: /img/1_3yp4kxcdtm6oc3vb9it2wa.png
     name: Gavin Johns
     text: >
