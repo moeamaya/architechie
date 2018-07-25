@@ -1,6 +1,8 @@
 ---
 templateKey: about-page
-title: 'Expanding the design community '
+title: >-
+  Our world is changing more from building apps than airports, and as keepers of
+  our collective culture, architects need to be involved.
 description: |
   Architechie is first and foremost people.
   Our unconventional backgrounds are our best asset.
