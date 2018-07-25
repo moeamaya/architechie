@@ -26,11 +26,17 @@ team:
   - image: /img/1_3yp4kxcdtm6oc3vb9it2wa.png
     name: Gavin Johns
     text: >
-      Previously, Gavin was a licensed architect and urban designer for 10 years
-      before transitioning to technology. He started designing at Autodesk,
-      where he focused on driving growth through the web experience. Now he is a
-      product design leader rethinking real estate deals at the VC backed
-      startup, Dealpath.
+      Gavin is a tried and true licensed architect & urban designer with 10
+      years of industry experience building homes across the U.S, schools in San
+      Francisco, and cities in China. After hanging up his mayline, he started
+      designing web experiences & special projects at Autodesk where he focused
+      on growth.<br><br>
+
+
+      He is now rethinking real estate deals at VC backed startup Dealpath as a
+      product designer. Gavin holds three degrees from Georgia Tech (B.S in
+      Architecture, Master of City & Regional Planning, and Master of
+      Architecture).
   - image: /img/screen shot 2018-05-28 at 8.57.33 pm.png
     name: Alex Dixon
     text: >
