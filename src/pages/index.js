@@ -47,12 +47,12 @@ export default class IndexPage extends React.Component {
         <section className="index-manifesto">
           <div className="container">
             <div className="index-manifesto__heading">
-              <h3>Principles</h3>
+              <h3></h3>
             </div>
             <div className="index-manifesto__content columns">
                 <div className="column is-two-thirds">
+                  <h4 className="index-manifesto__subtitle">Principles</h4>
                   <h2 className="index-manifesto__title">Manifesto</h2>
-                  <h4 className="index-manifesto__subtitle">Design All the Things</h4>
                   {posts
                     .filter(post => post.node.frontmatter.templateKey === 'about-page')
                     .map(({ node: post }) => (
@@ -69,6 +69,33 @@ export default class IndexPage extends React.Component {
             <div className="container">
               <div className="index-manifesto__graphic-line"></div>
             </div>
+          </div>
+        </section>
+
+        <section className="index-people">
+          <div className="container">
+            <div className="index-people__title">
+              <h2>People</h2>
+            </div>
+
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'team-page')
+              .map(({ node: post }) => (
+                <div className="columns index-people-list">
+                  {post.frontmatter.team
+                    .map((person) => (
+                      <div className="column is-one-third index-person">
+                        <h4>Architechie</h4>
+                        <h2>{person.name}</h2>
+                        <div className="index-person__image"></div>
+                        <p dangerouslySetInnerHTML={{ __html: person.text }} />
+                      </div>
+                    ))
+                  }
+                </div>
+              ))
+            }
+
           </div>
         </section>
 
@@ -101,33 +128,6 @@ export default class IndexPage extends React.Component {
                 ))
               }
             </div>
-          </div>
-        </section>
-
-        <section className="index-people">
-          <div className="container">
-            <div className="index-people__title">
-              <h2>People</h2>
-            </div>
-
-            {posts
-              .filter(post => post.node.frontmatter.templateKey === 'team-page')
-              .map(({ node: post }) => (
-                <div className="columns index-people-list">
-                  {post.frontmatter.team
-                    .map((person) => (
-                      <div className="column is-one-third index-person">
-                        <h4>Architechie</h4>
-                        <h2>{person.name}</h2>
-                        <div className="index-person__image"></div>
-                        <p dangerouslySetInnerHTML={{ __html: person.text }} />
-                      </div>
-                    ))
-                  }
-                </div>
-              ))
-            }
-
           </div>
         </section>
 
