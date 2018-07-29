@@ -2,13 +2,18 @@
 templateKey: faq-page
 title: Frequently Asked Questions
 faqs:
-- name: Where do I start / general guidance?
-  author: Gavin Johns
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-- name: Where do I start / general guidance?
-  author: Gavin Johns
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-- name: Where do I start / general guidance?
-  author: Gavin Johns
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - author: ''
+    description: Hear from designers working at the forefront of new industries.
+    name: Get inspired
+  - author: ''
+    description: >-
+      A chance to network with multidisciplinary designers who have leveraged
+      backgrounds from another fields into technology.
+    name: Level up your career
+  - author: ''
+    description: The opportunity to learn best practices from design leaders.
+    name: Learn best practices
+  - description: A chance to strengthen the design industry with your insight.
+    name: Contribute your perspective
 ---
+
