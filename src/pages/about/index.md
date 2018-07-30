@@ -7,18 +7,14 @@ description: >
   We're an intrepid band of architects now working in the tech industry and
   helping others do the same. <br><br>
 
-  <ol> 
+  1. Architechie is first and foremost people.<br>
 
-  <li>Architechie is first and foremost people.</li>
+  2. Our unconventional backgrounds are our best asset, for now.<br>
 
-  <li>Our unconventional backgrounds are our best asset, for now.</li>
+  3. Everyone has a different path, and that's a good thing.<br>
 
-  <li>Everyone has a different path, and that's a good thing.</li>
+  4. Together we make up a living wiki: ask us anything.<br>
 
-  <li>Together we make up a living wiki: ask us anything.</li>
-
-  <li>Networking is paramount. So come to our next event.</li>
-
-  </ol>
+  5. Networking is paramount. So come to our next event.
 ---
 
