@@ -205,6 +205,7 @@ export default class IndexPage extends React.Component {
                 data-netlify-honeypot="bot-field"
                 >
                 <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="signup" />
                 <input name="email" type="email" placeholder="you@domain.com" />
                 <button>Sign Up</button>
               </form>
