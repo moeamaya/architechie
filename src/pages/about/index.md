@@ -4,8 +4,8 @@ title: >-
   Our world is changing more from building apps than airports, and as keepers of
   our collective culture, <strong>architects need to be involved.</strong>
 description: >
-  We're an intrepid band of architects now working in the tech industry and
-  helping others do the same. <br><br>
+  <em>We're an intrepid band of architects now working in the tech industry and
+  helping others do the same. </em><br><br>
 
   1. Architechie is first and foremost people.<br>
 
