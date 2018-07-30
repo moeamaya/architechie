@@ -59,7 +59,7 @@ team:
     text: >-
       George serves as a New Market Specialist at WeWork. He has held various
       roles in design, product management, sales and marketing in cutting-edge
-      technology companies, most recently, Paperspace and IrisVR. 
+      technology companies, most recently, Paperspace and IrisVR. <br><br>
 
 
       In 2013, he co-founded Built-In: The Architecture and Entrepreneurship
