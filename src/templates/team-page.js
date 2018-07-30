@@ -4,7 +4,6 @@ import TeamGrid from '../components/TeamGrid'
 
 export const TeamPageTemplate = ({
   title,
-  heading,
   team,
   contentComponent
 }) => {
@@ -19,7 +18,6 @@ export const TeamPageTemplate = ({
               <h1 className="has-text-weight-bold is-size-2">
                 {title}
               </h1>
-              <h2 class="subtitle">{heading}</h2>
               <TeamGrid gridItems={team} />
             </div>
           </div>
@@ -36,7 +34,6 @@ export default ({ data }) => {
     <TeamPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      heading={post.frontmatter.heading}
       team={post.frontmatter.team}
       content={post.html}
     />
@@ -49,7 +46,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        heading
         team {
           image
           name

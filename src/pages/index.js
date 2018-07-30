@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 
 import header from '../img/architechie-header.jpg'
 
+
 export default class IndexPage extends React.Component {
   componentDidMount() {
     console.log('loaded');
@@ -22,6 +23,7 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </section>
+
         <section className="index-intro">
           <div className="container">
             <div className="index-intro__content">
@@ -30,14 +32,14 @@ export default class IndexPage extends React.Component {
                 <div className="index-intro__box-bottom"></div>
               </div>
               <div className="index-intro__image">
-                <img src={header} alt="Github" />
+                <img src={header} alt="Architechie" />
               </div>
             </div>
             <div className="index-intro__description">
               {posts
                 .filter(post => post.node.frontmatter.templateKey === 'about-page')
                 .map(({ node: post }) => (
-                  <p className="index-intro__description-text" dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
+                  <p className="index-intro__description-text">{post.frontmatter.title}</p>
                 ))
               }
             </div>
@@ -87,7 +89,9 @@ export default class IndexPage extends React.Component {
                       <div className="column is-one-third index-person">
                         <h4>Architechie</h4>
                         <h2>{person.name}</h2>
-                        <div className="index-person__image"></div>
+                        <div className="index-person__image">
+                          <img src={person.image} alt="Github" />
+                        </div>
                         <p dangerouslySetInnerHTML={{ __html: person.text }} />
                       </div>
                     ))
@@ -159,7 +163,7 @@ export default class IndexPage extends React.Component {
 
         <section className="index-faqs">
           <div className="index-blog__heading">
-            <h3>Frequently Asked Questions</h3>
+            <h3>Membership Benefits</h3>
           </div>
           <div className="index-blog__posts">
             <div className="container">
@@ -172,10 +176,9 @@ export default class IndexPage extends React.Component {
                     {post.frontmatter.faqs
                       .map((faq) => (
                         <article className="index-blog__post column is-half">
-                          <h4>Question</h4>
+                          <h4>{faq.author}</h4>
                           <h2>{faq.name}</h2>
                           <br />
-                          <h4>{faq.author}</h4>
                           <p>{faq.description}</p>
                         </article>
                       ))

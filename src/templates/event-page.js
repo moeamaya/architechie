@@ -4,7 +4,6 @@ import TeamGrid from '../components/TeamGrid'
 
 export const EventPageTemplate = ({
   title,
-  heading,
   team,
   contentComponent
 }) => {
@@ -34,7 +33,6 @@ export default ({ data }) => {
     <EventPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      heading={post.frontmatter.heading}
       team={post.frontmatter.team}
       content={post.html}
     />
@@ -47,7 +45,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        heading
         events {
           name
         }
