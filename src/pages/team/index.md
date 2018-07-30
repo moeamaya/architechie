@@ -12,7 +12,7 @@ team:
       the product design for Netflix’s Studio Finance Engineering team to help
       Netflix scale as the largest studio in history with $8+ billion annual
       investment in creative content.
-  - image: /img/1_mg1_sxmkbggskcp_n8pmma.png
+  - image: /img/blake.png
     name: Blake Hudelson
     text: >
       Blake is a designer and educator working at the intersection of technology
@@ -22,7 +22,7 @@ team:
       United States Department of Defense.<br><br> Currently, he works as a
       designer at Google ATAP and teaches at California College of the Arts.
       Blake studied Architecture and Urban Planning at CCA and Cal Poly, SLO.
-  - image: /img/1_3yp4kxcdtm6oc3vb9it2wa.png
+  - image: /img/gavin2.png
     name: Gavin Johns
     text: >
       Gavin is a tried and true licensed architect & urban designer with 10
@@ -36,7 +36,7 @@ team:
       product designer. Gavin holds three degrees from Georgia Tech (B.S in
       Architecture, Master of City & Regional Planning, and Master of
       Architecture).
-  - image: /img/screen shot 2018-05-28 at 8.57.33 pm.png
+  - image: /img/alex.png
     name: Alex Dixon
     text: >
       Hailing from MIT with a masters in architecture, Alex previously ran a
@@ -46,7 +46,7 @@ team:
       <br><br>He currently leads the product team at Monograph.io—a project
       planning and time tracking platform for architects and engineers—with the
       mission to develop better software for the building industry.
-  - image: /img/screen shot 2018-05-28 at 8.57.44 pm.png
+  - image: /img/moe.png
     name: Moe Amaya
     text: >-
       Moe is a fickle wildcard and works at Monograph, a small software company
@@ -54,7 +54,7 @@ team:
       Teespring while also earning a degree in design computation at
       MIT.<br><br>Lately, he's been seen spending way too much time on Twitter
       and making lots of colorful side projects.
-  - image: /img/0.jpg
+  - image: /img/george.png
     name: George Valdes
     text: Text forthcoming
 ---
