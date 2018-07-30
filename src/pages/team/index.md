@@ -3,7 +3,7 @@ templateKey: team-page
 title: Our team
 team:
   - image: /img/leona.png
-    name: Leona Hu
+    name: Leona Hu Hudelson
     text: >
       Leona comes from a multidisciplinary background varying in architecture,
       digital product development and design. After working at tech giants like
