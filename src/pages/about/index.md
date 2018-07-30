@@ -2,7 +2,7 @@
 templateKey: about-page
 title: >-
   Our world is changing more from building apps than airports, and as keepers of
-  our collective culture, architects need to be involved.
+  our collective culture, <strong>architects need to be involved.</strong>
 description: >
   We're an intrepid band of architects now working in the tech industry and
   helping others do the same. <br><br>
