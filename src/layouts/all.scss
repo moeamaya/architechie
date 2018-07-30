@@ -33,13 +33,18 @@ $fullhd: 1320px;
   font-family: 'GT Sectra';
   font-style: italic;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.15;
+  @media screen and (min-width: $tablet){
+    font-size: 3rem;
+  }
 }
 
 
 body {
+  position: relative;
   color: #000;
+  overflow-x: hidden;
 }
 input:focus {
   outline: none;
@@ -66,16 +71,31 @@ input:focus:-ms-input-placeholder {
   color: #eee;
 }
 
-
+.container {
+  padding: 0 20px;
+  @media screen and (min-width: $tablet){
+    padding: 0;
+  }
+}
 
 
 
 
 .navbar {
-  margin-top: 4em;
+  margin-top: 1em;
+  @media screen and (min-width: $tablet){
+    margin-top: 4em;
+  }
+}
+.navbar > .container {
+  display: flex;
+  align-items: center;
 }
 .navbar, .navbar-menu, .navbar-start, .navbar-end {
   align-items: center;
+}
+.navbar-item, .navbar-link {
+  padding: 0;
 }
 .navbar-center {
   display: flex;
@@ -86,6 +106,11 @@ input:focus:-ms-input-placeholder {
 .navbar-date {
   @include mono;
   color: #000;
+}
+.navbar-end {
+  line-height: 1.5;
+  // padding: 0.5rem 1rem;
+  position: relative;
 }
 
 .content-center {
@@ -116,9 +141,18 @@ p {
   margin-top: 2.5rem;
   text-align: center;
   z-index: 1;
+  svg {
+    width: 310px;
+    @media screen and (min-width: $tablet){
+      width: auto;
+    }
+  }
 }
 .index-intro {
   margin-top: -2.5rem;
+  .container {
+    padding: 0;
+  }
 }
 .index-intro__description {
   display: flex;
@@ -132,18 +166,24 @@ p {
 .index-intro__description-text {
   @include mono;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.2rem;
   text-transform: none;
   line-height: 1.325;
   letter-spacing: -0.02em;
   max-width: 90%;
+  @media screen and (min-width: $tablet){
+    font-size: 3rem;
+  }
 }
 .index-intro__content {
   display: flex;
 }
 .index-intro__box {
-  flex: 0 0 50%;
-  position: relative;
+  flex: 0 0 0;
+  @media screen and (min-width: $tablet){
+    flex: 0 0 50%;
+    position: relative;
+  }
 }
 .index-intro__box-top {
   width: 25%;
@@ -152,45 +192,56 @@ p {
 }
 .index-intro__box-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 0;
-  width: 94%;
+  width: 100%;
   height: 2px;
   background: #000;
+  @media screen and (min-width: $tablet){
+    bottom: 0;
+    width: 94%;
+  }
 }
 .index-intro__image {
   line-height: 0;
 }
 
+
+
+
+
+
 .index-manifesto {
   position: relative;
-  padding-bottom: 8rem;
+  padding: 4rem 0;
+  @media screen and (min-width: $tablet){
+    padding: 8rem 0;
+  }
 }
 .index-manifesto__heading {
   @include mono;
-  margin: 8rem 0 2rem;
+  margin: 0 0 2rem;
   text-align: center;
 }
 .index-manifesto__title {
   @include sectra;
-  font-size: 4rem;
+  font-size: 3rem;
+  @media screen and (min-width: $tablet){
+    font-size: 4rem;
+  }
 }
 .index-manifesto__subtitle {
   @include mono;
   margin-bottom: 1rem;
 }
 .index-manifesto__description {
-  font-size: $size-4;
+  font-size: $size-5;
   margin-top: 3rem;
   line-height: 2;
-}
-.index-blog__arrow {
-  text-align: right;
-  svg {
-    margin-top: 1rem;
+  @media screen and (min-width: $tablet){
+    font-size: $size-4;
   }
 }
-
 .index-manifesto__graphic {
   position: absolute;
   bottom: 0;
@@ -198,8 +249,18 @@ p {
 }
 .index-manifesto__graphic-triangle {
   position: absolute;
-  bottom: 0;
-  right: -10rem;
+  bottom: 3rem;
+  right: -14rem;
+  svg {
+    width: 400px;
+  }
+  @media screen and (min-width: $tablet){
+    bottom: 0;
+    right: -10rem;
+    svg {
+      width: auto;
+    }
+  }
 }
 .index-manifesto__graphic-line {
   position: absolute;
@@ -222,8 +283,7 @@ p {
   text-align: center;
 }
 .index-blog__post {
-  margin-top: 6rem;
-  padding-bottom: 4rem;
+  margin-top: 4rem;
   h4 {
     @include mono;
   }
@@ -232,13 +292,40 @@ p {
     margin-top: 0.2rem;
   }
   p {
-    font-size: $size-4;
+    font-size: $size-5;
     margin-top: 1rem;
+  }
+  .columns {
+    margin: 0;
+  }
+  @media screen and (min-width: $tablet){
+    padding-bottom: 4rem;
+    p {
+      font-size: $size-4;
+    }
   }
 }
 .index-blog__link {
   color: #000;
+  .column {
+    padding: 0;
+
+  }
 }
+.index-blog__arrow {
+  display: none;
+  text-align: right;
+  svg {
+    margin-top: 1rem;
+  }
+  @media screen and (min-width: $tablet){
+    display: block;
+  }
+}
+
+
+
+
 
 
 .index-people {
@@ -304,7 +391,6 @@ p {
   height: 300px;
   border-radius: 150px;
   overflow: hidden;
-  // background: linear-gradient(235deg, #D4F8FD 0%, #FED7DE 100%);
   z-index: 0;
   img {
     width: 300px;
@@ -312,7 +398,6 @@ p {
     object-fit: cover;
     border-radius: 150px;
     overflow: hidden;
-    // filter: grayscale(100%) brightness(1.35);
     opacity: 1;
   }
   &:after {
@@ -331,7 +416,8 @@ p {
 .index-events__title {
   @include mono;
   position: relative;
-  margin-top: 10rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
   line-height: 150px;
   &:before {
@@ -343,7 +429,37 @@ p {
     border: 1px solid #000;
     transform: rotate(45deg) translate(-54px, 54px);
   }
+  @media screen and (min-width: $tablet){
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+  }
 }
+.index-event {
+  margin-top: 3rem;
+  h4 {
+    @include mono;
+    position: relative;
+    z-index: 1;
+    font-size: $size-5;
+  }
+  h2 {
+    @include sectra;
+    position: relative;
+    z-index: 1;
+    font-size: $size-2;
+  }
+  p {
+    position: relative;
+    z-index: 1;
+    font-size: 1em;
+  }
+  @media screen and (min-width: $tablet){
+    margin-top: 6rem;
+  }
+}
+
+
+
 
 .index-faqs {
   margin-top: 12rem;
@@ -370,25 +486,43 @@ p {
   h2 {
     @include mono;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: none;
     line-height: 1.325;
     letter-spacing: -0.02em;
     margin: 4rem 0;
+    @media screen and (min-width: $tablet){
+      font-size: 3rem;
+    }
   }
   input {
-    width: 60%;
-    height: 80px;
+    width: 65%;
+    height: 60px;
     border: none;
-    font-size: $size-3;
-    padding: 1em;
+    font-size: $size-4;
+    padding: 0.5em;
+    @media screen and (min-width: $tablet){
+      width: 60%;
+      height: 80px;
+      padding: 1em;
+      font-size: $size-3;
+    }
   }
   button {
-    width: 20%;
-    height: 80px;
+    width: 25%;
+    height: 60px;
     outline: none;
     border: 2px solid #000;
     font-size: $size-5;
+    @media screen and (min-width: $tablet){
+      height: 80px;
+    }
+  }
+  .container {
+    padding: 0;
+    @media screen and (min-width: $tablet){
+      padding: 0 20px;
+    }
   }
 }
 .index-cta__box {
@@ -396,15 +530,19 @@ p {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 16rem;
+  height: 12rem;
   background: linear-gradient(235deg, #D4F8FD 0%, #FED7DE 100%);
+  @media screen and (min-width: $tablet){
+    height: 16rem;
+  }
 }
 
 .footer {
   background: transparent;
   align-items: center;
+  padding: 3rem 0 6rem;
   .container {
-    align-items: stretch;
+    align-items: center;
     display: flex;
     min-height: 3.25rem;
     width: 100%;

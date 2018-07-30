@@ -147,7 +147,7 @@ export default class IndexPage extends React.Component {
                 <div className="columns index-people-list">
                   {post.frontmatter.events
                     .map((event) => (
-                      <div className="column is-one-third index-person">
+                      <div className="column is-one-third index-event">
                         <h2>{event.name}</h2>
                         <br />
                         <h4>{event.date}</h4>
@@ -167,8 +167,6 @@ export default class IndexPage extends React.Component {
           </div>
           <div className="index-blog__posts">
             <div className="container">
-              <div className="columns">
-
               {posts
                 .filter(post => post.node.frontmatter.templateKey === 'faq-page')
                 .map(({ node: post }) => (
@@ -178,7 +176,6 @@ export default class IndexPage extends React.Component {
                         <article className="index-blog__post column is-half">
                           <h4>{faq.author}</h4>
                           <h2>{faq.name}</h2>
-                          <br />
                           <p>{faq.description}</p>
                         </article>
                       ))
@@ -186,7 +183,6 @@ export default class IndexPage extends React.Component {
                   </div>
                 ))
               }
-              </div>
             </div>
           </div>
         </section>
