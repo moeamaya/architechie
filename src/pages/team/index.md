@@ -56,6 +56,16 @@ team:
       and making lots of colorful side projects.
   - image: /img/george.png
     name: George Valdes
-    text: Text forthcoming
+    text: >-
+      George serves as a New Market Specialist at WeWork. He has held various
+      roles in design, product management, sales and marketing in cutting edge
+      technology companies, most recently, Paperspace and IrisVR. 
+
+
+      In 2013, he co-founded Built-In: The Architecture and Entrepreneurship
+      Meet Up, the largest meetup in NYC devoted to fostering entrepreneurship
+      within the A/E/C industries. George received his Masters Degree from the
+      Graduate School of Architecture, Planning and Preservation at Columbia
+      University and B.LArch from Florida International University.
 ---
 
