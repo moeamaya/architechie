@@ -5,7 +5,8 @@ title: >-
   our collective culture, <b>architects need to be involved.</b>
 description: >
   <em>We're an intrepid band of architects now working in the tech industry and
-  helping others do the same. </em><br><br>
+  helping others do the same. We host events, workshops, and throw a killer
+  happy hour.</em><br><br>
 
   1. Architechie is first and foremost people.<br>
 
