@@ -198,7 +198,12 @@ export default class IndexPage extends React.Component {
           <div className="index-cta__content">
             <div className="container">
               <h2>Hop on our mailing list to stay informed.</h2>
-              <form name="signup" className="index-cta__box" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <form name="signup"
+                className="index-cta__box"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                >
                 <input type="hidden" name="bot-field" />
                 <input name="email" type="email" placeholder="you@domain.com" />
                 <button>Sign Up</button>
