@@ -198,7 +198,7 @@ export default class IndexPage extends React.Component {
           <div className="index-cta__content">
             <div className="container">
               <h2>Hop on our mailing list to stay informed.</h2>
-              <form name="signup" className="index-cta__box" netlify>
+              <form name="signup" className="index-cta__box" method="POST" netlify>
                 <input name="email" type="email" placeholder="you@domain.com" />
                 <button>Sign Up</button>
               </form>
