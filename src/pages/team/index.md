@@ -2,7 +2,7 @@
 templateKey: team-page
 title: Our team
 team:
-  - image: /img/screen shot 2018-05-28 at 8.57.18 pm.png
+  - image: /img/leona.png
     name: Leona Hu
     text: >
       Leona comes from a multidisciplinary background varying in architecture,
