@@ -469,6 +469,9 @@ p {
 
 .index-cta {
   margin-top: 6rem;
+  @media screen and (min-width: $tablet){
+    margin-top: 10rem;
+  }
 }
 .index-cta__heading {
   @include mono;
@@ -519,9 +522,9 @@ p {
     }
   }
   .container {
-    padding: 0;
+    padding: 0 20px;
     @media screen and (min-width: $tablet){
-      padding: 0 20px;
+      padding: 0;
     }
   }
 }

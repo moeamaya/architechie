@@ -5,9 +5,22 @@ import header from '../img/architechie-header.jpg'
 
 
 export default class IndexPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
   componentDidMount() {
     console.log('loaded');
   }
+
+  handleChange(e) {
+    this.setState({value: e.target.value});
+  }
+
 
   render() {
     const { data } = this.props
@@ -194,10 +207,10 @@ export default class IndexPage extends React.Component {
           <div className="index-cta__content">
             <div className="container">
               <h2>Hop on our mailing list to stay informed.</h2>
-              <div className="index-cta__box">
-                <input type="email" placeholder="you@domain.com" />
+              <form name="signup" className="index-cta__box">
+                <input name="email" type="email" placeholder="you@domain.com" />
                 <button>Sign Up</button>
-              </div>
+              </form>
             </div>
           </div>
         </section>
