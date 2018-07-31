@@ -22,7 +22,7 @@ team:
       United States Department of Defense.<br><br> Currently, he works as a
       designer at Google ATAP and teaches at California College of the Arts.
       Blake studied Architecture and Urban Planning at CCA and Cal Poly, SLO.
-  - image: /img/gavin2.png
+  - image: /img/gavin.png
     name: Gavin Johns
     text: >
       Gavin is a tried and true licensed architect & urban designer with 10
