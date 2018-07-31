@@ -31,8 +31,6 @@ $fullhd: 1320px;
 }
 @mixin sectra {
   font-family: 'GT Sectra';
-  font-style: italic;
-  font-weight: 900;
   font-size: 2rem;
   line-height: 1.15;
   @media screen and (min-width: $tablet){
