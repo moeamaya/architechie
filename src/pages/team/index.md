@@ -64,8 +64,7 @@ team:
 
       In 2013, he co-founded Built-In: The Architecture and Entrepreneurship
       Meet Up, the largest meetup in NYC devoted to fostering entrepreneurship
-      within the A/E/C industries. George received his Master's Degree from the
-      Graduate School of Architecture, Planning, and Preservation at Columbia
+      within the A/E/C industries. George received his M.Arch from Columbia
       University and B.LArch from Florida International University.
 ---
 
