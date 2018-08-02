@@ -10,7 +10,7 @@ description: >
 
   1. Architechie is first and foremost people.<br>
 
-  2. Our unconventional backgrounds are our best asset, for now.<br>
+  2. Our unconventional backgrounds are our best asset.<br>
 
   3. Everyone has a different path, and that's a good thing.<br>
 
