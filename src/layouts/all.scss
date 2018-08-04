@@ -120,14 +120,30 @@ input:focus:-ms-input-placeholder {
   position: relative;
 }
 
+// ——————————————————————————————————————
+// Index
+// ——————————————————————————————————————
+
 .content-center {
   text-align: center;
 }
-.content h2 {
-  color: $grey-light;
+.content h1 {
+  @include sectra;
+  font-size: 4rem;
 }
-.content h2:not(:first-child).subtitle {
-  margin-top: -0.5rem;
+.content h2 {
+  // @include mono;
+  // color: $grey-light;
+}
+.content .subtitle {
+  margin-top: -0.5rem !important;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+}
+.content h2:not(:first-child) {
+  @include sectra;
+  font-size: 3rem;
+  // margin-top: -0.5rem;
   margin-bottom: 2rem;
 }
 
