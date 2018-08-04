@@ -92,7 +92,7 @@ export default class IndexPage extends React.Component {
                     .map((person) => (
                       <div className="column is-one-third index-person">
                         <h4>Architechie</h4>
-                        <h2>{person.name}</h2>
+                        <h2 dangerouslySetInnerHTML={{ __html: person.name }} />
                         <div className="index-person__image">
                           <img src={person.image} alt="Github" />
                         </div>

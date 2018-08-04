@@ -14,6 +14,7 @@ const Footer = () => (
       </div>
       <div className="navbar-center">
         <div class="navbar-date">Made in San Francisco</div>
+        <div class="navbar-by">Designed by <a target="_blank" href="https://monograph.io/">Monograph</a></div>
       </div>
       <div className="navbar-end">
         <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 1h22v22H1z" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>

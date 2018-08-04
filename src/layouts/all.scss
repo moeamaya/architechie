@@ -31,8 +31,6 @@ $fullhd: 1320px;
 }
 @mixin sectra {
   font-family: 'GT Sectra';
-  font-style: italic;
-  font-weight: 900;
   font-size: 2rem;
   line-height: 1.15;
   @media screen and (min-width: $tablet){
@@ -101,11 +99,20 @@ input:focus:-ms-input-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
 }
 .navbar-date {
   @include mono;
   color: #000;
+}
+.navbar-by {
+  @include mono;
+  color: #ccc;
+  a {
+    color: #ccc;
+    text-decoration: underline;
+  }
 }
 .navbar-end {
   line-height: 1.5;
