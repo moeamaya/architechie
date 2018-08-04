@@ -460,6 +460,10 @@ p {
     z-index: 1;
     font-size: 1em;
   }
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
   @media screen and (min-width: $tablet){
     margin-top: 6rem;
   }

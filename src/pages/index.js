@@ -7,10 +7,30 @@ import header from '../img/architechie-header.jpg'
 export default class IndexPage extends React.Component {
   constructor(props) {
     super(props);
+    this.renderEvent = this.renderEvent.bind(this);
   }
 
   componentDidMount() {
-    console.log('loaded');
+    // console.log('loaded');
+  }
+
+  renderEvent(event) {
+    if (event.link) {
+      return (
+        <div className="column is-one-third index-event">
+          <h2><a href={event.link} target="_blank">{event.name}</a></h2>
+          <br />
+          <h4>{event.date}</h4>
+        </div>
+      )
+    }
+    return (
+      <div className="column is-one-third index-event">
+        <h2>{event.name}</h2>
+        <br />
+        <h4>{event.date}</h4>
+      </div>
+    )
   }
 
   render() {
@@ -151,11 +171,7 @@ export default class IndexPage extends React.Component {
                 <div className="columns index-people-list">
                   {post.frontmatter.events
                     .map((event) => (
-                      <div className="column is-one-third index-event">
-                        <h2>{event.name}</h2>
-                        <br />
-                        <h4>{event.date}</h4>
-                      </div>
+                      this.renderEvent(event)
                     ))
                   }
                 </div>
@@ -240,6 +256,7 @@ export const pageQuery = graphql`
             events {
               name
               date
+              link
             }
             faqs {
               name
