@@ -18,5 +18,8 @@ events:
     name: Becoming a Designer in Tech Workshop @ Tradecraft
   - date: 06 June 2016
     name: Tech Talks @ Matter
+  - date: 21 February 2019
+    link: Coming Soon
+    name: Designing Digital Products for the AEC Industry
 ---
 
