@@ -2,14 +2,14 @@
 templateKey: event-page
 title: Events
 events:
-  - date: 21 February 2019
+  - date: 21 Feb 2019
     link: ''
     name: Designing Digital Products for the AEC Industry
-  - date: 15 November 2018
+  - date: 15 Nov 2018
     link: >-
       https://www.eventbrite.com/e/designing-for-a-changing-world-holiday-happy-hour-networking-tickets-52154981955
     name: Architurkey
-  - date: 09 August 2018
+  - date: 09 Aug 2018
     link: >-
       https://www.eventbrite.com/e/designing-for-a-changing-world-social-hour-networking-event-tickets-48683718312
     name: Social Hour @ WeWork
