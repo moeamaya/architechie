@@ -3,7 +3,8 @@ templateKey: event-page
 title: Events
 events:
   - date: 21 Feb 2019
-    link: ''
+    link: >-
+      https://www.eventbrite.com/e/designing-technologies-for-the-aec-industry-architechie-panel-discussion-networking-tickets-56390782348
     name: Designing Digital Products for the AEC Industry
   - date: 15 Nov 2018
     link: >-
