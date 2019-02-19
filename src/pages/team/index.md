@@ -32,8 +32,8 @@ team:
       on growth.<br><br>
 
 
-      He is now rethinking real estate deals at VC backed startup Dealpath as a
-      product designer. Gavin holds three degrees from Georgia Tech (B.S in
+      He is now a product designer at Opendoor, rethinking how people buy and
+      sell homes. Gavin holds three degrees from Georgia Tech (B.S in
       Architecture, Master of City & Regional Planning, and Master of
       Architecture).
   - image: /img/alex.png
