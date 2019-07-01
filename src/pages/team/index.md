@@ -7,11 +7,11 @@ team:
     text: >
       Leona comes from a multidisciplinary background varying in architecture,
       digital product development and design. After working at tech giants like
-      SAP labs, Apple, and Autodesk,  she dabbled in entrepreneurship in the
-      past two years founding a  startup, Airgora.<br><br>Leona currently leads
-      the product design for Netflix’s Studio Finance Engineering team to help
-      Netflix scale as the largest studio in history with $8+ billion annual
-      investment in creative content.
+      SAP labs, Apple, and Autodesk,  she founded startup, Airgora, an open
+      community marketplace for designers and design companies<br><br>Leona
+      currently leads and builds a team of design leaders working on innovations
+      for multi-billion dollar creative content investment and catalog
+      programming at Netflix's Studio XD team
   - image: /img/blake.png
     name: Blake<br>Hudelson
     text: >
@@ -32,8 +32,8 @@ team:
       on growth.<br><br>
 
 
-      He is now rethinking real estate deals at VC backed startup Dealpath as a
-      product designer. Gavin holds three degrees from Georgia Tech (B.S in
+      He is now a product designer at Opendoor, rethinking how people buy and
+      sell homes. Gavin holds three degrees from Georgia Tech (B.S in
       Architecture, Master of City & Regional Planning, and Master of
       Architecture).
   - image: /img/alex.png
