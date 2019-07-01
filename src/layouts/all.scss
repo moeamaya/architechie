@@ -511,6 +511,22 @@ p {
   border-radius: 90px;
   text-align: center;
 }
+.index-cta__slack {
+  display: block;
+  width: 25%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 1rem auto 3rem;
+  outline: none;
+  border: 2px solid #000;
+  color: #000;
+  font-size: $size-5;
+  @media screen and (min-width: $tablet){
+    height: 80px;
+    line-height: 80px;
+  }
+}
 .index-cta__content {
   h2 {
     @include mono;

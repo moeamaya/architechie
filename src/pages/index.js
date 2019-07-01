@@ -213,7 +213,8 @@ export default class IndexPage extends React.Component {
           </div>
           <div className="index-cta__content">
             <div className="container">
-              <h2>Hop on our mailing list to stay informed.</h2>
+              <h2>Join our slack to chat and hop on our mailing list to stay informed.</h2>
+              <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/enQtNjMwODI0NTAwNDIyLTgyNGU4YmYzNmIyZTgzYmRiY2RhNTA2Zjk3YWYyNzI5ZTc5MTJlODJlMDJmNzE4OTE4NmM1ZjcxZGVlOGRhNTE">Join Architechie Slack ›</a>
               <form name="signup"
                 className="index-cta__box"
                 method="post"
