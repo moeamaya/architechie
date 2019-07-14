@@ -56,6 +56,6 @@ collections:
               {label: Name, name: name, widget: string},
               {label: Image, name: image, widget: image},
               {label: Text, name: text, widget: text},
-              {label: "Location (sf/ny)", name: location, widget: string}
+              {label: "Location", name: location, widget: select, options: ["sf", "ny"]}
             ]}
 
