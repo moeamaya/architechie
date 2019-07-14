@@ -3,8 +3,8 @@ templateKey: team-page
 title: Our team
 team:
   - image: /img/leona.png
-    name: Leona Hu<br>Hudelson
     location: sf
+    name: Leona Hu<br>Hudelson
     text: >
       Leona comes from a multidisciplinary background varying in architecture,
       digital product development and design. After working at tech giants like
@@ -14,8 +14,8 @@ team:
       for multi-billion dollar creative content investment and catalog
       programming at Netflix's Studio XD team
   - image: /img/blake.png
-    name: Blake<br>Hudelson
     location: sf
+    name: Blake<br>Hudelson
     text: >
       Blake is a designer and educator working at the intersection of technology
       and design.  Blake has designed interactive experiences, connected
@@ -25,8 +25,8 @@ team:
       designer at Google ATAP and teaches at California College of the Arts.
       Blake studied Architecture and Urban Planning at CCA and Cal Poly, SLO.
   - image: /img/gavin.png
-    name: Gavin<br>Johns
     location: sf
+    name: Gavin<br>Johns
     text: >
       Gavin is a tried and true licensed architect & urban designer with 10
       years of industry experience building homes across the U.S, schools in San
@@ -40,8 +40,8 @@ team:
       Architecture, Master of City & Regional Planning, and Master of
       Architecture).
   - image: /img/alex.png
-    name: Alex<br>Dixon
     location: sf
+    name: Alex<br>Dixon
     text: >
       Hailing from MIT with a masters in architecture, Alex previously ran a
       design and development agency called Dixon & Moe, collaborating with
@@ -51,8 +51,8 @@ team:
       planning and time tracking platform for architects and engineers—with the
       mission to develop better software for the building industry.
   - image: /img/moe.png
-    name: Moe<br>Amaya
     location: sf
+    name: Moe<br>Amaya
     text: >-
       Moe is a fickle wildcard and works at Monograph, a small software company
       building tools for architects. Previously he worked with IDEO, Spoke, and
@@ -60,8 +60,8 @@ team:
       MIT.<br><br>Lately, he's been seen spending way too much time on Twitter
       and making lots of colorful side projects.
   - image: /img/george.png
-    name: George<br>Valdes
     location: sf
+    name: George<br>Valdes
     text: >-
       George serves as a New Market Specialist at WeWork. He has held various
       roles in design, product management, sales and marketing in cutting-edge
@@ -72,5 +72,20 @@ team:
       Meet Up, the largest meetup in NYC devoted to fostering entrepreneurship
       within the AEC industry. George received his M.Arch from Columbia
       University and B.LArch from Florida International University.
+  - image: /img/jeff.jpg
+    location: sf
+    name: Jeff<br>Lin
+    text: >-
+      Jeff is a cross-disciplinary strategist in architecture, industrial
+      design, and product development. He’s built global experiences across
+      emerging technologies, environments, and digital products, working with
+      organizations like Doctors without Borders, IDEO, MIT Media Lab, and
+      Samsung.<br><br>
+
+
+      Jeff currently designs field construction products at <a
+      href="https://www.plangrid.com/">PlanGrid</a> & Autodesk. He studied
+      Architecture and Industrial Design at MIT and Art Center College of
+      Design.
 ---
 
