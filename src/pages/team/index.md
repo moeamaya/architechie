@@ -4,6 +4,7 @@ title: Our team
 team:
   - image: /img/leona.png
     name: Leona Hu<br>Hudelson
+    location: sf
     text: >
       Leona comes from a multidisciplinary background varying in architecture,
       digital product development and design. After working at tech giants like
@@ -14,6 +15,7 @@ team:
       programming at Netflix's Studio XD team
   - image: /img/blake.png
     name: Blake<br>Hudelson
+    location: sf
     text: >
       Blake is a designer and educator working at the intersection of technology
       and design.  Blake has designed interactive experiences, connected
@@ -24,6 +26,7 @@ team:
       Blake studied Architecture and Urban Planning at CCA and Cal Poly, SLO.
   - image: /img/gavin.png
     name: Gavin<br>Johns
+    location: sf
     text: >
       Gavin is a tried and true licensed architect & urban designer with 10
       years of industry experience building homes across the U.S, schools in San
@@ -38,6 +41,7 @@ team:
       Architecture).
   - image: /img/alex.png
     name: Alex<br>Dixon
+    location: sf
     text: >
       Hailing from MIT with a masters in architecture, Alex previously ran a
       design and development agency called Dixon & Moe, collaborating with
@@ -48,6 +52,7 @@ team:
       mission to develop better software for the building industry.
   - image: /img/moe.png
     name: Moe<br>Amaya
+    location: sf
     text: >-
       Moe is a fickle wildcard and works at Monograph, a small software company
       building tools for architects. Previously he worked with IDEO, Spoke, and
@@ -56,6 +61,7 @@ team:
       and making lots of colorful side projects.
   - image: /img/george.png
     name: George<br>Valdes
+    location: sf
     text: >-
       George serves as a New Market Specialist at WeWork. He has held various
       roles in design, product management, sales and marketing in cutting-edge

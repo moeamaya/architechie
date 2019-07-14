@@ -104,13 +104,16 @@ export default class IndexPage extends React.Component {
               <h2>People</h2>
             </div>
 
+            <h2 className="index-people__subtitle">San Francisco</h2>
+
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'team-page')
               .map(({ node: post }) => (
                 <div className="columns index-people-list">
                   {post.frontmatter.team
+                    .filter((person) => person.location == "sf")
                     .map((person) => (
-                      <div className="column is-one-third index-person">
+                      <div className="column is-half-tablet is-one-quarter-desktop index-person">
                         <h4>Architechie</h4>
                         <h2 dangerouslySetInnerHTML={{ __html: person.name }} />
                         <div className="index-person__image">
@@ -123,6 +126,9 @@ export default class IndexPage extends React.Component {
                 </div>
               ))
             }
+
+            <h2 className="index-people__subtitle">New York</h2>
+            <p style={{textAlign: "center", marginTop: "3rem"}}>Coming Soon</p>
 
           </div>
         </section>
@@ -253,6 +259,7 @@ export const pageQuery = graphql`
               name
               text
               image
+              location
             }
             events {
               name

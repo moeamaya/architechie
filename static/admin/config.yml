@@ -52,5 +52,10 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Team, name: team, widget: list, fields: [ {label: Name, name: name, widget: string}, {label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}
+          - {label: Team, name: team, widget: list, fields: [
+              {label: Name, name: name, widget: string},
+              {label: Image, name: image, widget: image},
+              {label: Text, name: text, widget: text}
+              {label: "Location (sf/ny)", name: text, widget: text}
+            ]}
 

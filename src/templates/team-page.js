@@ -49,6 +49,7 @@ export const pageQuery = graphql`
         team {
           image
           name
+          location
           text
         }
       }
