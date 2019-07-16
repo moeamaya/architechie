@@ -87,5 +87,14 @@ team:
       href="https://www.plangrid.com/">PlanGrid</a> & Autodesk. He studied
       Architecture and Industrial Design at MIT and Art Center College of
       Design.
+  - image: /img/violet.jpg
+    location: ny
+    name: Violet Whitney
+    text: >-
+      Violet is an Adjunct Assistant Professor at Columbia University’s Graduate
+      School of Architecture, Planning, and Preservation, where she teaches <a
+      href="https://medium.com/data-mining-the-city">urban data analytics</a>. 
+      She leads the Generative Design product at Sidewalk Labs as a Product
+      Manager.
 ---
 
