@@ -128,7 +128,27 @@ export default class IndexPage extends React.Component {
             }
 
             <h2 className="index-people__subtitle">New York</h2>
-            <p style={{textAlign: "center", marginTop: "3rem"}}>Coming Soon</p>
+
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'team-page')
+              .map(({ node: post }) => (
+                <div className="columns index-people-list">
+                  {post.frontmatter.team
+                    .filter((person) => person.location == "ny")
+                    .map((person) => (
+                      <div className="column is-half-tablet is-one-quarter-desktop index-person">
+                        <h4>Architechie</h4>
+                        <h2 dangerouslySetInnerHTML={{ __html: person.name }} />
+                        <div className="index-person__image">
+                          <img src={person.image} alt="Github" />
+                        </div>
+                        <p dangerouslySetInnerHTML={{ __html: person.text }} />
+                      </div>
+                    ))
+                  }
+                </div>
+              ))
+            }
 
           </div>
         </section>

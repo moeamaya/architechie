@@ -47,8 +47,8 @@ team:
       design and development agency called Dixon & Moe, collaborating with
       architects, startups and Fortune 500 companies.
 
-      <br><br>He currently leads the product team at Monograph.io—a project
-      planning and time tracking platform for architects and engineers—with the
+      <br><br>He currently leads the product team at <a href="https://monograph.io/">Monograph—a project
+      planning and time tracking platform for architects and engineers</a>—with the
       mission to develop better software for the building industry.
   - image: /img/moe.png
     location: sf
@@ -93,7 +93,7 @@ team:
     text: >-
       Violet is an Adjunct Assistant Professor at Columbia University’s Graduate
       School of Architecture, Planning, and Preservation, where she teaches <a
-      href="https://medium.com/data-mining-the-city">urban data analytics</a>. 
+      href="https://medium.com/data-mining-the-city">urban data analytics</a>.
       She leads the Generative Design product at Sidewalk Labs as a Product
       Manager.
 ---
