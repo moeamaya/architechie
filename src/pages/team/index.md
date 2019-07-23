@@ -47,9 +47,10 @@ team:
       design and development agency called Dixon & Moe, collaborating with
       architects, startups and Fortune 500 companies.
 
-      <br><br>He currently leads the product team at <a href="https://monograph.io/">Monograph—a project
-      planning and time tracking platform for architects and engineers</a>—with the
-      mission to develop better software for the building industry.
+      <br><br>He currently leads the product team at <a
+      href="https://monograph.io/">Monograph—a project planning and time
+      tracking platform for architects and engineers</a>—with the mission to
+      develop better software for the building industry.
   - image: /img/moe.png
     location: sf
     name: Moe<br>Amaya
@@ -96,5 +97,13 @@ team:
       href="https://medium.com/data-mining-the-city">urban data analytics</a>.
       She leads the Generative Design product at Sidewalk Labs as a Product
       Manager.
+  - image: /img/celeste.jpg
+    location: ny
+    name: Celeste<br>Layne
+    text: >-
+      Celeste Layne began her career as an architect and urban planner, but
+      quickly got absorbed into San Francisco's tech scene after a brief stint
+      on the West Coast. She currently lives and works as a software engineering
+      instructor at General Assembly in New York, NY.
 ---
 
