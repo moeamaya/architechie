@@ -106,15 +106,9 @@ team:
       Metropolis, where she covered everything from VR's burgeoning relevance to
       architecture to the integration of refugees into American legacy cities.
       Before that, Vanessa was a managing editor at ArchDaily, the world's most
-      visited architecture site, headquartered in Santiago, Chile. She has also
-      contributed to numerous online publications, including Quartz, Wired, and
-      Atlas Obscura.<br><br>
-
-      Vanessa holds an MA in Arts & Culture Journalism from Columbia University
-      and a BA in English Literature and Music from the George Washington
-      University. When she's not writing, editing, or thinking about cities,
-      she's probably traveling, cycling around the city, singing harmonies, or
-      listening to podcasts.
+      visited architecture site, headquartered in Santiago, Chile. When she's
+      not writing, editing, or thinking about cities, she's probably traveling,
+      cycling around the city, singing harmonies, or listening to podcasts.
   - image: /img/celeste.jpg
     location: ny
     name: Celeste<br>Layne
