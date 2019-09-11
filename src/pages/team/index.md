@@ -117,5 +117,13 @@ team:
       quickly got absorbed into San Francisco's tech scene after a brief stint
       on the West Coast. She currently lives and works as a software engineering
       instructor at General Assembly in New York, NY.
+  - image: /img/adrian.jpg
+    location: ny
+    name: Adrian von der Osten
+    text: >-
+      Adrian is the Co-founder & Head of Product of Skipp (hyperlink ->
+      skipp.ai), Co-founder of Built-In: The Architecture and Entrepreneurship
+      Meetup, received his M.Arch from Pratt Institute, and B.LArch from Florida
+      International University.
 ---
 
