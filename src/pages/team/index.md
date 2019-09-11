@@ -121,9 +121,9 @@ team:
     location: ny
     name: Adrian von der Osten
     text: >-
-      Adrian is the Co-founder & Head of Product of Skipp (hyperlink ->
-      skipp.ai), Co-founder of Built-In: The Architecture and Entrepreneurship
-      Meetup, received his M.Arch from Pratt Institute, and B.LArch from Florida
-      International University.
+      Adrian is the Co-founder & Head of Product of <a
+      href="https://skipp.ai/">Skipp, Co-founder of Built-In: The Architecture
+      and Entrepreneurship Meetup, received his M.Arch from Pratt Institute, and
+      B.LArch from Florida International University.
 ---
 
