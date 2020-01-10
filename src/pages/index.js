@@ -70,6 +70,13 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
+        <section className="index-slack">
+          <div className="container">
+            <h2></h2>
+            <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/enQtNjMwODI0NTAwNDIyLTgyNGU4YmYzNmIyZTgzYmRiY2RhNTA2Zjk3YWYyNzI5ZTc5MTJlODJlMDJmNzE4OTE4NmM1ZjcxZGVlOGRhNTE">Join Our Community ›</a>
+          </div>
+        </section>
+
         <section className="index-manifesto">
           <div className="container">
             <div className="index-manifesto__heading">

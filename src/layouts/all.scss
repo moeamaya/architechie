@@ -230,6 +230,21 @@ p {
 }
 
 
+.index-slack {
+  h2 {
+    @include mono;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: none;
+    line-height: 1.325;
+    letter-spacing: -0.02em;
+    margin: 4rem 0;
+    @media screen and (min-width: $tablet){
+      font-size: 3rem;
+    }
+  }
+}
+
 
 
 
