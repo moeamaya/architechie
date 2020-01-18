@@ -5,6 +5,7 @@ import Content, { HTMLContent } from '../components/Content'
 export const BlogPostTemplate = ({
   content,
   contentComponent,
+  author,
   description,
   title,
   helmet,
@@ -21,6 +22,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <h3 class="subtitle">{description}</h3>
+            <h4 class="author">by {author}</h4>
             <PostContent content={content} />
           </div>
         </div>
@@ -39,6 +41,7 @@ export default props => {
       description={post.frontmatter.description}
       helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
       title={post.frontmatter.title}
+      author={post.frontmatter.author}
     />
   )
 }
@@ -52,6 +55,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        author
       }
     }
   }

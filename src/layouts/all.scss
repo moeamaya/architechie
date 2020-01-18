@@ -1,43 +1,42 @@
 @import "~bulma/sass/utilities/initial-variables";
 
 @font-face {
-  font-family: 'Simplon Mono';
-  src: url('../fonts/SimplonMono-Regular-WebS.eot');
-  src: url('../fonts/SimplonMono-Regular-WebS.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/SimplonMono-Regular-WebS.woff2') format('woff2'),
-       url('../fonts/SimplonMono-Regular-WebS.woff') format('woff');
+  font-family: "Simplon Mono";
+  src: url("../fonts/SimplonMono-Regular-WebS.eot");
+  src: url("../fonts/SimplonMono-Regular-WebS.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SimplonMono-Regular-WebS.woff2") format("woff2"),
+    url("../fonts/SimplonMono-Regular-WebS.woff") format("woff");
   font-style: normal;
 }
 @font-face {
-  font-family: 'GT Sectra';
-  src: url('../fonts/GT-Sectra-Black-Italic.eot');
-  src: url('../fonts/GT-Sectra-Black-Italic.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/GT-Sectra-Black-Italic.woff2') format('woff2'),
-       url('../fonts/GT-Sectra-Black-Italic.woff') format('woff');
+  font-family: "GT Sectra";
+  src: url("../fonts/GT-Sectra-Black-Italic.eot");
+  src: url("../fonts/GT-Sectra-Black-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GT-Sectra-Black-Italic.woff2") format("woff2"),
+    url("../fonts/GT-Sectra-Black-Italic.woff") format("woff");
   font-style: normal;
 }
-
 
 // Config vars
 $fullhd: 1320px;
 @import "~bulma";
 
-
 @mixin mono {
-  font-family: 'Simplon Mono', monospace;
+  font-family: "Simplon Mono", monospace;
   font-size: $size-6;
   color: #000;
   text-transform: uppercase;
 }
 @mixin sectra {
-  font-family: 'GT Sectra';
+  font-family: "GT Sectra";
   font-size: 2rem;
   line-height: 1.15;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     font-size: 3rem;
   }
 }
-
 
 body {
   position: relative;
@@ -71,17 +70,14 @@ input:focus:-ms-input-placeholder {
 
 .container {
   padding: 0 20px;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     padding: 0;
   }
 }
 
-
-
-
 .navbar {
   margin-top: 1em;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     margin-top: 4em;
   }
 }
@@ -89,10 +85,14 @@ input:focus:-ms-input-placeholder {
   display: flex;
   align-items: center;
 }
-.navbar, .navbar-menu, .navbar-start, .navbar-end {
+.navbar,
+.navbar-menu,
+.navbar-start,
+.navbar-end {
   align-items: center;
 }
-.navbar-item, .navbar-link {
+.navbar-item,
+.navbar-link {
   padding: 0;
 }
 .navbar-center {
@@ -137,14 +137,29 @@ input:focus:-ms-input-placeholder {
 }
 .content .subtitle {
   margin-top: -0.5rem !important;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   line-height: 1.4;
+  font-size: 1.75rem;
+}
+.content .author {
+  font-family: "Simplon Mono", monospace;
+  margin-bottom: 3rem;
 }
 .content h2:not(:first-child) {
   @include sectra;
   font-size: 3rem;
   // margin-top: -0.5rem;
   margin-bottom: 2rem;
+}
+.content ol li,
+.content ul li {
+  margin: 0 0 1rem;
+  font-size: $size-5;
+}
+.content a {
+  font-family: "Simplon Mono", monospace;
+  text-decoration: underline;
+  color: #000;
 }
 
 p {
@@ -166,7 +181,7 @@ p {
   z-index: 1;
   svg {
     width: 310px;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) {
       width: auto;
     }
   }
@@ -194,7 +209,7 @@ p {
   line-height: 1.325;
   letter-spacing: -0.02em;
   max-width: 90%;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     font-size: 3rem;
   }
 }
@@ -203,7 +218,7 @@ p {
 }
 .index-intro__box {
   flex: 0 0 0;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     flex: 0 0 50%;
     position: relative;
   }
@@ -220,7 +235,7 @@ p {
   width: 100%;
   height: 2px;
   background: #000;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     bottom: 0;
     width: 94%;
   }
@@ -228,7 +243,6 @@ p {
 .index-intro__image {
   line-height: 0;
 }
-
 
 .index-slack {
   h2 {
@@ -239,20 +253,16 @@ p {
     line-height: 1.325;
     letter-spacing: -0.02em;
     margin: 4rem 0;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) {
       font-size: 3rem;
     }
   }
 }
 
-
-
-
-
 .index-manifesto {
   position: relative;
   padding: 4rem 0;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     padding: 8rem 0;
   }
 }
@@ -264,7 +274,7 @@ p {
 .index-manifesto__title {
   @include sectra;
   font-size: 3rem;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     font-size: 4rem;
   }
 }
@@ -276,7 +286,7 @@ p {
   font-size: $size-5;
   margin-top: 3rem;
   line-height: 2;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     font-size: $size-4;
   }
 }
@@ -292,7 +302,7 @@ p {
   svg {
     width: 400px;
   }
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     bottom: 0;
     right: -10rem;
     svg {
@@ -309,11 +319,10 @@ p {
   width: 40%;
 }
 
-
 .index-blog {
   margin-top: 8rem;
   padding: 8rem 0;
-  background-image: linear-gradient(235deg, #D4F8FD 0%, #FED7DE 100%);
+  background-image: linear-gradient(235deg, #d4f8fd 0%, #fed7de 100%);
 }
 .index-blog__heading {
   @include mono;
@@ -336,7 +345,7 @@ p {
   .columns {
     margin: 0;
   }
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     padding-bottom: 4rem;
     p {
       font-size: $size-4;
@@ -347,7 +356,6 @@ p {
   color: #000;
   .column {
     padding: 0;
-
   }
 }
 .index-blog__arrow {
@@ -356,15 +364,10 @@ p {
   svg {
     margin-top: 1rem;
   }
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     display: block;
   }
 }
-
-
-
-
-
 
 .index-people {
   margin-bottom: 8rem;
@@ -376,7 +379,7 @@ p {
   text-align: center;
   line-height: 150px;
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     width: 150px;
@@ -385,7 +388,7 @@ p {
     transform: rotate(45deg) translate(-80px, 80px);
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 50%;
@@ -402,7 +405,7 @@ p {
   text-align: center;
   margin-top: 6rem;
   font-size: 3rem;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     font-size: 4rem;
   }
 }
@@ -454,13 +457,13 @@ p {
     opacity: 1;
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(135deg, #52E4F8 0%, #F95C79 100%);
+    background-image: linear-gradient(135deg, #52e4f8 0%, #f95c79 100%);
     mix-blend-mode: screen;
     opacity: 0;
   }
@@ -474,7 +477,7 @@ p {
   text-align: center;
   line-height: 150px;
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     width: 150px;
@@ -482,7 +485,7 @@ p {
     border: 1px solid #000;
     transform: rotate(45deg) translate(-54px, 54px);
   }
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     margin-top: 10rem;
     margin-bottom: 0rem;
   }
@@ -510,23 +513,18 @@ p {
     color: #000;
     text-decoration: underline;
   }
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     margin-top: 6rem;
   }
 }
-
-
-
 
 .index-faqs {
   margin-top: 12rem;
 }
 
-
-
 .index-cta {
   margin-top: 6rem;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     margin-top: 10rem;
   }
 }
@@ -553,7 +551,7 @@ p {
   border: 2px solid #000;
   color: #000;
   font-size: $size-5;
-  @media screen and (min-width: $tablet){
+  @media screen and (min-width: $tablet) {
     height: 80px;
     line-height: 80px;
   }
@@ -567,7 +565,7 @@ p {
     line-height: 1.325;
     letter-spacing: -0.02em;
     margin: 4rem 0;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) {
       font-size: 3rem;
     }
   }
@@ -577,7 +575,7 @@ p {
     border: none;
     font-size: $size-4;
     padding: 0.5em;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) {
       width: 60%;
       height: 80px;
       padding: 1em;
@@ -590,13 +588,13 @@ p {
     outline: none;
     border: 2px solid #000;
     font-size: $size-5;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) {
       height: 80px;
     }
   }
   .container {
     padding: 0 20px;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) {
       padding: 0;
     }
   }
@@ -607,8 +605,8 @@ p {
   justify-content: center;
   width: 100%;
   height: 12rem;
-  background: linear-gradient(235deg, #D4F8FD 0%, #FED7DE 100%);
-  @media screen and (min-width: $tablet){
+  background: linear-gradient(235deg, #d4f8fd 0%, #fed7de 100%);
+  @media screen and (min-width: $tablet) {
     height: 16rem;
   }
 }
@@ -624,7 +622,3 @@ p {
     width: 100%;
   }
 }
-
-
-
-

@@ -56,9 +56,9 @@ team:
     name: Moe<br>Amaya
     text: >-
       Moe is a fickle wildcard and works at Monograph, a small software company
-      building tools for architects. Previously he worked with IDEO, Spoke, and
+      building tools for architects. Previously he worked with Figma, Spoke, and
       Teespring while also earning a degree in design computation at
-      MIT.<br><br>Lately, he's been seen spending way too much time on Twitter
+      MIT.<br><br>Lately, he's been seen spending way too much time on <a href="https://twitter.com/moeamaya">Twitter</a>
       and making lots of colorful side projects.
   - image: /img/george.png
     location: sf
@@ -122,8 +122,7 @@ team:
     name: Adrian von der Osten
     text: >-
       Adrian is the Co-founder & Head of Product of <a
-      href="https://skipp.ai/">Skipp, Co-founder of Built-In: The Architecture
+      href="https://skipp.ai/">Skipp</a>, Co-founder of Built-In: The Architecture
       and Entrepreneurship Meetup, received his M.Arch from Pratt Institute, and
       B.LArch from Florida International University.
 ---
-
