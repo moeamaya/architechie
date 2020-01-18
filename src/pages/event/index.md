@@ -1,18 +1,15 @@
 ---
 templateKey: event-page
 title: Events
+link: 'https://architechie.org/'
 events:
+  - date: 11 October 2019
+    name: BBQ in Park
   - date: 21 Feb 2019
-    link: >-
-      https://www.eventbrite.com/e/designing-technologies-for-the-aec-industry-architechie-panel-discussion-networking-tickets-56390782348
     name: Designing Digital Products for the AEC Industry
   - date: 15 Nov 2018
-    link: >-
-      https://www.eventbrite.com/e/designing-for-a-changing-world-holiday-happy-hour-networking-tickets-52154981955
     name: Architurkey
   - date: 09 Aug 2018
-    link: >-
-      https://www.eventbrite.com/e/designing-for-a-changing-world-social-hour-networking-event-tickets-48683718312
     name: Social Hour @ WeWork
   - date: 14 May 2018
     name: Happy Hour @ Monograph
