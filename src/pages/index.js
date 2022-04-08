@@ -73,7 +73,7 @@ export default class IndexPage extends React.Component {
         <section className="index-slack">
           <div className="container">
             <h2></h2>
-            <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/enQtNjMwODI0NTAwNDIyLTgyNGU4YmYzNmIyZTgzYmRiY2RhNTA2Zjk3YWYyNzI5ZTc5MTJlODJlMDJmNzE4OTE4NmM1ZjcxZGVlOGRhNTE">Join Our Community ›</a>
+            <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/zt-15t2rq2bq-xSsNUwaylYVVybHu48F2uA">Join Our Community ›</a>
           </div>
         </section>
 
@@ -247,7 +247,7 @@ export default class IndexPage extends React.Component {
           <div className="index-cta__content">
             <div className="container">
               <h2>Join our slack to chat and hop on our mailing list to stay informed.</h2>
-              <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/enQtNjMwODI0NTAwNDIyLTgyNGU4YmYzNmIyZTgzYmRiY2RhNTA2Zjk3YWYyNzI5ZTc5MTJlODJlMDJmNzE4OTE4NmM1ZjcxZGVlOGRhNTE">Join Architechie Slack ›</a>
+              <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/zt-15t2rq2bq-xSsNUwaylYVVybHu48F2uA">Join Architechie Slack ›</a>
               <form name="signup"
                 className="index-cta__box"
                 method="post"
