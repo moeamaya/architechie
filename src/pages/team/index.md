@@ -58,8 +58,7 @@ team:
       Moe is a fickle wildcard and works at Monograph, a small software company
       building tools for architects. Previously he worked with Figma, Spoke, and
       Teespring while also earning a degree in design computation at
-      MIT.<br><br>Lately, he's been seen spending way too much time on <a href="https://twitter.com/moeamaya">Twitter</a>
-      and making lots of colorful side projects.
+      MIT.<br><br>Lately, he's been seen spending way too much time buying and taking care of <a href="https://howmanyplants.com/">houseplants</a>.
   - image: /img/george.png
     location: sf
     name: George<br>Valdes
