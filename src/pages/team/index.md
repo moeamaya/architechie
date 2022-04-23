@@ -17,13 +17,13 @@ team:
     location: sf
     name: Blake<br>Hudelson
     text: >
-      Blake is a designer and educator working at the intersection of technology
-      and design.  Blake has designed interactive experiences, connected
-      products, mobile and web interfaces, and environments for a range of
-      clients including Google, CBS, the Exploratorium Science Museum, and the
-      United States Department of Defense.<br><br> Currently, he works as a
-      designer at Google ATAP and teaches at California College of the Arts.
-      Blake studied Architecture and Urban Planning at CCA and Cal Poly, SLO.
+      Blake Hudelson is an entrepreneur and design leader. His career spans 15+
+      years across architecture, interaction design, industrial design, and
+      entrepreneurship. Blake has worked at some of the world’s most venerated
+      design firms including SOM, Method, and Google ATAP.<br><br> Blake
+      currently works at Atomic, a venture studio and startup incubator where he
+      works launching new products and companies. Blake studied Architecture and
+      Urban Planning at CCA and Cal Poly, SLO.
   - image: /img/gavin.png
     location: sf
     name: Gavin<br>Johns
@@ -58,7 +58,8 @@ team:
       Moe is a fickle wildcard and works at Monograph, a small software company
       building tools for architects. Previously he worked with Figma, Spoke, and
       Teespring while also earning a degree in design computation at
-      MIT.<br><br>Lately, he's been seen spending way too much time buying and taking care of <a href="https://howmanyplants.com/">houseplants</a>.
+      MIT.<br><br>Lately, he's been seen spending way too much time buying and
+      taking care of <a href="https://howmanyplants.com/">houseplants</a>.
   - image: /img/george.png
     location: sf
     name: George<br>Valdes
@@ -121,7 +122,8 @@ team:
     name: Adrian von der Osten
     text: >-
       Adrian is the Co-founder & Head of Product of <a
-      href="https://skipp.ai/">Skipp</a>, Co-founder of Built-In: The Architecture
-      and Entrepreneurship Meetup, received his M.Arch from Pratt Institute, and
-      B.LArch from Florida International University.
+      href="https://skipp.ai/">Skipp</a>, Co-founder of Built-In: The
+      Architecture and Entrepreneurship Meetup, received his M.Arch from Pratt
+      Institute, and B.LArch from Florida International University.
 ---
+
