@@ -73,7 +73,7 @@ export default class IndexPage extends React.Component {
         <section className="index-slack">
           <div className="container">
             <h2></h2>
-            <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/zt-19ywevfcj-goFflFs5b09DXfhJd3BUBA">Join Our Community ›</a>
+            <a className="index-cta__slack" href="https://docs.google.com/forms/d/e/1FAIpQLSfHtgGMgwHPYrLaIsLcCiCsW--4U91iNWOk7bZOaxF30zYiAQ/viewform?usp=sf_link">Join Our Community ›</a>
           </div>
         </section>
 
@@ -247,7 +247,7 @@ export default class IndexPage extends React.Component {
           <div className="index-cta__content">
             <div className="container">
               <h2>Join our slack to chat and hop on our mailing list to stay informed.</h2>
-              <a className="index-cta__slack" href="https://join.slack.com/t/architechie/shared_invite/zt-19ywevfcj-goFflFs5b09DXfhJd3BUBA">Join Architechie Slack ›</a>
+              <a className="index-cta__slack" href="https://docs.google.com/forms/d/e/1FAIpQLSfHtgGMgwHPYrLaIsLcCiCsW--4U91iNWOk7bZOaxF30zYiAQ/viewform?usp=sf_link">Join Architechie Slack ›</a>
               <form name="signup"
                 className="index-cta__box"
                 method="post"
