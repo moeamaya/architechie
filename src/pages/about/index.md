@@ -16,6 +16,6 @@ description: >
 
   4. Together we make up a living wiki: ask us anything.<br>
 
-  5. Networking is paramount. So come to our next event.
+  5. Networking is paramount. So join our community.
 ---
 
