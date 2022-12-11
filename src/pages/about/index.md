@@ -17,6 +17,6 @@ description: >
 
   4. Together we make up a living wiki: ask us anything.<br>
 
-  5. Networking is paramount, so join our community.
+  5. Networking is paramount, we help each other level up.
 ---
 
